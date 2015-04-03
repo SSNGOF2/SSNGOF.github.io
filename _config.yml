@@ -1,0 +1,41 @@
+# Site settings
+title: South Sudan NGO Forum
+email: support@southsudanngoforum.org
+url: http://ssngof.github.io/SSNGOF-website/
+description: "The NGO Forum is an independent coordinating body of national and international NGOs that exists to serve and facilitate the work of its NGO members in order to efficiently and effectively address the humanitarian and development needs in South Sudan. "
+baseurl: /SSNGOF-website
+
+# Contact form: comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 303030 #18bc9c #80B3FF
+  secondary: 6C4D80 #FD6E8A
+  secondary-dark: 303030 #A2122F
+
+# Footer settings
+footer:
+  copyright: South Sudan NGO Forum
+  location: Office Location
+  social: Supported by
+  credits: Latest News
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Tearfund Compound, Hai Jerusalem,
+  - line: Juba, South Sudan
+
+# Credits content
+credits: 'Brian Mc Donald - Information Manager<br>Lucia Goldsmith - Co-ordinator'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
