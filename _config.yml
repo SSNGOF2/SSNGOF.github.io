@@ -1,9 +1,9 @@
 # Site settings
 title: South Sudan NGO Forum
 email: support@southsudanngoforum.org
-url: http://ssngof.github.io/SSNGOF-website/
+url: http://southsudanngoforum.org
 description: "The NGO Forum is an independent coordinating body of national and international NGOs that exists to serve and facilitate the work of its NGO members in order to efficiently and effectively address the humanitarian and development needs in South Sudan. "
-baseurl: /SSNGOF-website
+#baseurl:
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
