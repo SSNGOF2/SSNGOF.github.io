@@ -397,7 +397,7 @@ color: white;
     outline: 0;
 }
 
-.portfolio-modal .modal-content {
+.services .modal-content {
     padding: 100px 0;
     min-height: 100%;
     border: 0;
@@ -408,20 +408,20 @@ color: white;
     box-shadow: none;
 }
 
-.portfolio-modal .modal-content h2 {
+.services .modal-content h2 {
     margin: 0;
     font-size: 3em;
 }
 
-.portfolio-modal .modal-content img {
+.services .modal-content img {
     margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content .item-details {
+.services .modal-content .item-details {
     margin: 30px 0;
 }
 
-.portfolio-modal .close-modal {
+.services .close-modal {
     position: absolute;
     top: 25px;
     right: 25px;
@@ -431,11 +431,11 @@ color: white;
     cursor: pointer;
 }
 
-.portfolio-modal .close-modal:hover {
+.services .close-modal:hover {
     opacity: .3;
 }
 
-.portfolio-modal .close-modal .lr {
+.services .close-modal .lr {
     z-index: 1051;
     width: 1px;
     height: 75px;
@@ -446,7 +446,7 @@ color: white;
     transform: rotate(45deg);
 }
 
-.portfolio-modal .close-modal .lr .rl {
+.services .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;
