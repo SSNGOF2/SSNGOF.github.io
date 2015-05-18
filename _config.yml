@@ -2,7 +2,7 @@
 title: South Sudan NGO Forum
 email: support@southsudanngoforum.org
 url: http://southsudanngoforum.org
-description: "The NGO Forum is an independent coordinating body of national and international NGOs that exists to serve and facilitate the work of its NGO members in order to efficiently and effectively address the humanitarian and development needs in South Sudan. "
+description: "The NGO Forum is an independent coordinating body of national and international NGOs that exists to serve and facilitate the work of its NGO members in order to efficiently and effectively address the humanitarian and development needs in South Sudan."
 #baseurl:
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
@@ -34,8 +34,11 @@ address:
   - line: Juba, South Sudan
 
 # Credits content
-credits: 'Brian Mc Donald - Information Manager<br>Lucia Goldsmith - Co-ordinator'
+credits: 'test'
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+gems:
+  - jekyll-sitemap
