@@ -7,6 +7,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: The Security Office of the NGO Forum routinely and regularly: provides members with various written information products; conducts information, coordination and assistance meetings, briefings and workshops; maintains security liaison with, and is the primary security point of contact for, other non-NGO groups and individuals; promotes best security practices; facilitates security training and education opportunities; and assists and advises on member preparedness and security incidents/crisis management if appropriate. The office does not, however, provide security management or an operational presence in any form.
+description: This section will detail the security services/products the security team provide. Please check back later.
 
 ---
