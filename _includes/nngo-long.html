@@ -65,7 +65,7 @@
                     //add comment sign to hide this layer on the map in the initial view.
                     feature_group.addLayer(json_SSadmbndaadm1200kssnbs2013JSON);
                 function pop_Untitled3shp(feature, layer) {
-                var popupContent = '<table><tr><th scope="row">Stname</th><td>' + Autolinker.link(String(feature.properties['Stname'])) + '</td></tr><tr><th scope="row">Focal Poin</th><td>' + Autolinker.link(String(feature.properties['Focal Poin'])) + '</td></tr><tr><th scope="row">Email</th><td>' + Autolinker.link(String(feature.properties['Email'])) + '</td></tr><tr><th scope="row">Google gro</th><td>' + Autolinker.link(String(feature.properties['Google gro'])) + '</td></tr><tr><th scope="row">Number of</th><td>' + Autolinker.link(String(feature.properties['Number of'])) + '</td></tr></table>';
+                var popupContent = '<table><tr><th scope="row">State</th><td>' + Autolinker.link(String(feature.properties['Stname'])) + '</td></tr><tr><th scope="row">Focal Poin</th><td>' + Autolinker.link(String(feature.properties['Focal Poin'])) + '</td></tr><tr><th scope="row">Email</th><td>' + Autolinker.link(String(feature.properties['Email'])) + '</td></tr><tr><th scope="row">Google group</th><td>' + Autolinker.link(String(feature.properties['Google gro'])) + '</td></tr><tr><th scope="row"># of CBOs</th><td>' + Autolinker.link(String(feature.properties['Number of'])) + '</td></tr></table>';
                 layer.bindPopup(popupContent);
                 }
 
