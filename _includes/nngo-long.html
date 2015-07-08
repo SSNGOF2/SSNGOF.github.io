@@ -23,80 +23,76 @@
                 </div>
             </div>
             <div class="row">
-                <div id="map"></div>
-                <script src="/data/json_SSadmbndaadm1200kssnbs2013.js"></script>
-                <script src="/data/json_Untitled3shp.js"></script>
-                <script>
-                var map = L.map('map', {
-                    zoomControl:true, maxZoom:6, minZoom:6
-                }).fitBounds([[3.3063322183,23.5977200475],[10.6126429054,36.5049372074]]);
-                var hash = new L.Hash(map);
-                var additional_attrib = '<a href="https://github.com/tomchadwin/qgis2web" target ="_blank">qgis2web</a>';
-                var feature_group = new L.featureGroup([]);
-                var raster_group = new L.LayerGroup([]);
-                var basemap = L.tileLayer('http://a.tile.stamen.com/terrain/{z}/{x}/{y}.png', {
-                    attribution: additional_attrib + ' Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data: &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors,<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
-                });
-                basemap.addTo(map);
-                var layerOrder=new Array();
-                function restackLayers() {
-                    for (index = 0; index < layerOrder.length; index++) {
-                        feature_group.removeLayer(layerOrder[index]);
-                        feature_group.addLayer(layerOrder[index]);
+                    <div id="map"></div>
+                    <script src="/data/json_SSadmbndaadm1200kssnbs2013.js"></script>
+                    <script src="/data/json_Untitled3shp.js"></script>
+                    <script>
+                    var map = L.map('map', {
+                        zoomControl:true, maxZoom:6, minZoom:6
+                    }).fitBounds([[3.3063322183,23.5977200475],[10.6126429054,36.5049372074]]);
+                    var hash = new L.Hash(map);
+                    var additional_attrib = '<a href="https://github.com/tomchadwin/qgis2web" target ="_blank">qgis2web</a>';
+                    var feature_group = new L.featureGroup([]);
+                    var raster_group = new L.LayerGroup([]);
+                    var layerOrder=new Array();
+                    function restackLayers() {
+                        for (index = 0; index < layerOrder.length; index++) {
+                            feature_group.removeLayer(layerOrder[index]);
+                            feature_group.addLayer(layerOrder[index]);
+                        }
                     }
+
+                    layerControl = L.control.layers({},{},{collapsed:false});
+
+                function doStyleSSadmbndaadm1200kssnbs2013(feature) {
+                        return {
+                            weight: 1.04,
+                            color: '#000000',
+                            fillColor: '#ffffff',
+                            dashArray: '',
+                            opacity: 1.0,
+                            fillOpacity: 1.0
+                        };
                 }
-
-                layerControl = L.control.layers({},{},{collapsed:false});
-
-            function doStyleSSadmbndaadm1200kssnbs2013(feature) {
-                    return {
-                        weight: 1.04,
-                        color: '#000000',
-                        fillColor: '#ffffff',
-                        dashArray: '',
-                        opacity: 1.0,
-                        fillOpacity: 1.0
-                    };
-            }
-                    var json_SSadmbndaadm1200kssnbs2013JSON = new L.geoJson(json_SSadmbndaadm1200kssnbs2013, {
-                        style: doStyleSSadmbndaadm1200kssnbs2013
-                    });
+                        var json_SSadmbndaadm1200kssnbs2013JSON = new L.geoJson(json_SSadmbndaadm1200kssnbs2013, {
+                            style: doStyleSSadmbndaadm1200kssnbs2013
+                        });
+                        layerOrder[layerOrder.length] = json_SSadmbndaadm1200kssnbs2013JSON;
                     layerOrder[layerOrder.length] = json_SSadmbndaadm1200kssnbs2013JSON;
-                layerOrder[layerOrder.length] = json_SSadmbndaadm1200kssnbs2013JSON;
-                for (index = 0; index < layerOrder.length; index++) {
-                    feature_group.removeLayer(layerOrder[index]); feature_group.addLayer(layerOrder[index]);
+                    for (index = 0; index < layerOrder.length; index++) {
+                        feature_group.removeLayer(layerOrder[index]); feature_group.addLayer(layerOrder[index]);
+                    }
+                    //add comment sign to hide this layer on the map in the initial view.
+                    feature_group.addLayer(json_SSadmbndaadm1200kssnbs2013JSON);
+                function pop_Untitled3shp(feature, layer) {
+                var popupContent = '<table><tr><th scope="row">Stname</th><td>' + Autolinker.link(String(feature.properties['Stname'])) + '</td></tr><tr><th scope="row">Focal Poin</th><td>' + Autolinker.link(String(feature.properties['Focal Poin'])) + '</td></tr><tr><th scope="row">Email</th><td>' + Autolinker.link(String(feature.properties['Email'])) + '</td></tr><tr><th scope="row">Google gro</th><td>' + Autolinker.link(String(feature.properties['Google gro'])) + '</td></tr><tr><th scope="row">Number of</th><td>' + Autolinker.link(String(feature.properties['Number of'])) + '</td></tr></table>';
+                layer.bindPopup(popupContent);
                 }
-                //add comment sign to hide this layer on the map in the initial view.
-                feature_group.addLayer(json_SSadmbndaadm1200kssnbs2013JSON);
-            function pop_Untitled3shp(feature, layer) {
-            var popupContent = '<table><tr><th scope="row">Stname</th><td>' + Autolinker.link(String(feature.properties['Stname'])) + '</td></tr><tr><th scope="row">Focal Poin</th><td>' + Autolinker.link(String(feature.properties['Focal Poin'])) + '</td></tr><tr><th scope="row">Email</th><td>' + Autolinker.link(String(feature.properties['Email'])) + '</td></tr><tr><th scope="row">Google gro</th><td>' + Autolinker.link(String(feature.properties['Google gro'])) + '</td></tr><tr><th scope="row">Number of</th><td>' + Autolinker.link(String(feature.properties['Number of'])) + '</td></tr></table>';
-            layer.bindPopup(popupContent);
-            }
 
-            function doStyleUntitled3shp(feature) {
-                    return {
-                        weight: 1.04,
-                        color: '#000000',
-                        fillColor: '#6c4d80',
-                        dashArray: '',
-                        opacity: 1.0,
-                        fillOpacity: 1.0
-                    };
-            }
-                    var json_Untitled3shpJSON = new L.geoJson(json_Untitled3shp, {
-                        onEachFeature: pop_Untitled3shp,
-                        style: doStyleUntitled3shp
-                    });
-                    layerOrder[layerOrder.length] = json_Untitled3shpJSON;
-                layerOrder[layerOrder.length] = json_Untitled3shpJSON;
-                for (index = 0; index < layerOrder.length; index++) {
-                    feature_group.removeLayer(layerOrder[index]); feature_group.addLayer(layerOrder[index]);
+                function doStyleUntitled3shp(feature) {
+                        return {
+                            weight: 1.04,
+                            color: '#000000',
+                            fillColor: '#6c4d80',
+                            dashArray: '',
+                            opacity: 1.0,
+                            fillOpacity: 1.0
+                        };
                 }
-                //add comment sign to hide this layer on the map in the initial view.
-                feature_group.addLayer(json_Untitled3shpJSON);
-                raster_group.addTo(map);
-                feature_group.addTo(map);
-            </script>
+                        var json_Untitled3shpJSON = new L.geoJson(json_Untitled3shp, {
+                            onEachFeature: pop_Untitled3shp,
+                            style: doStyleUntitled3shp
+                        });
+                        layerOrder[layerOrder.length] = json_Untitled3shpJSON;
+                    layerOrder[layerOrder.length] = json_Untitled3shpJSON;
+                    for (index = 0; index < layerOrder.length; index++) {
+                        feature_group.removeLayer(layerOrder[index]); feature_group.addLayer(layerOrder[index]);
+                    }
+                    //add comment sign to hide this layer on the map in the initial view.
+                    feature_group.addLayer(json_Untitled3shpJSON);
+                    raster_group.addTo(map);
+                    feature_group.addTo(map);
+                </script>
             </div>
         </div>
     </section>
