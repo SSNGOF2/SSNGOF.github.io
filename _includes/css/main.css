@@ -25,7 +25,7 @@ a.active {
     color: #{{ site.color.primary }};
 }
 
-ol {
+ol, ul {
         font-size: 20px;
 }
 
