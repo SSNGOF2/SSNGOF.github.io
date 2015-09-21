@@ -25,6 +25,10 @@ a.active {
     color: #{{ site.color.primary }};
 }
 
+li {
+        font-size: 20px;
+}
+
 h1,
 h2,
 h3,
