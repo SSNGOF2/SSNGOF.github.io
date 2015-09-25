@@ -26,11 +26,6 @@
             <p>The National NGO office coordinates the efforts of the National NGO members of the South Sudan NGO Forum by consolidating and disseminating information products that appeal to the National NGO priorities, arranging regular and ad hoc meetings, briefings and workshops around issues of interest to the National NGO members as well as harvesting issues of common concern to the National NGO members and generating advocacy products such as position papers, advisory notes etc. The National NGO office also provides information and advice to international NGOs who work with National NGOs, helps in linking National NGOs with opportunities in funding, training, networking and partnerships and facilitates the work of the National NGO Steering Committee, including ensuring regular meetings are held and minuted and the National NGO member’s interests are represented at appropriate forums.</p>
             <p>The National NGO office additionally helps in ensuring that appropriate, productive and complementary links are created between the NGO Forum and other civil society for a/coalitions/networks within South Sudan and in other countries for the purpose of encouraging collaboration, learning and enhancing joint advocacy efforts.</p>
             </div>
-        </div>
-    </section>
-    <section id="state-level-coordination">
-        <div class="container">
-            <div class="row">
                 <div class="col-lg-12 text-center">
                 <br>
                     <h3>State-level Coordination</h3>
@@ -39,104 +34,21 @@
             <div class="row">
                 <p>The National NGO state coordination initiative aims at enhancing the information sharing system among NNGOs across the 10 states of South Sudan by improving already existing coordination systems or providing support in establishing new mechanisms for information sharing where there is none, this has been done through facilitation of coordination, leadership and communication trainings and setting up processes for follow up support for the state coordination leadership teams.</p>
                 <p>The goal of this initiative is to ensure that there is a sustainable effective functioning coordination system in each state of South Sudan with a clear leadership transitioning system, Information sharing system, data base management and information management. This will enhance state institutional memory and coordinate collective efforts of National organizations across the ten states of south Sudan.</p>
-                    <div id="map" style="height:500px"></div>
-                    <script src="/data/json_SSadmbndaadm1200kssnbs2013.js"></script>
-                    <script src="/data/json_Untitled3shp.js"></script>
-                    <script>
-                    var map = L.map('map', {
-                        zoomControl:false, maxZoom:6, minZoom:6
-                    }).fitBounds([[3.3063322183,23.5977200475],[10.6126429054,36.5049372074]]);
-                    var hash = new L.Hash(map);
-                    // var additional_attrib = '<a href="https://github.com/tomchadwin/qgis2web" target ="_blank">qgis2web</a>';
-                    var feature_group = new L.featureGroup([]);
-                    var raster_group = new L.LayerGroup([]);
-                    var layerOrder=new Array();
-                    function restackLayers() {
-                        for (index = 0; index < layerOrder.length; index++) {
-                            feature_group.removeLayer(layerOrder[index]);
-                            feature_group.addLayer(layerOrder[index]);
-                        }
-                    }
-
-                    layerControl = L.control.layers({},{},{collapsed:false});
-
-                function doStyleSSadmbndaadm1200kssnbs2013(feature) {
-                        return {
-                            weight: 1.04,
-                            color: '#000000',
-                            fillColor: '#ffffff',
-                            dashArray: '',
-                            opacity: 1.0,
-                            fillOpacity: 1.0
-                        };
-                }
-                        var json_SSadmbndaadm1200kssnbs2013JSON = new L.geoJson(json_SSadmbndaadm1200kssnbs2013, {
-                            style: doStyleSSadmbndaadm1200kssnbs2013
-                        });
-                        layerOrder[layerOrder.length] = json_SSadmbndaadm1200kssnbs2013JSON;
-                    layerOrder[layerOrder.length] = json_SSadmbndaadm1200kssnbs2013JSON;
-                    for (index = 0; index < layerOrder.length; index++) {
-                        feature_group.removeLayer(layerOrder[index]); feature_group.addLayer(layerOrder[index]);
-                    }
-                    //add comment sign to hide this layer on the map in the initial view.
-                    feature_group.addLayer(json_SSadmbndaadm1200kssnbs2013JSON);
-                function pop_Untitled3shp(feature, layer) {
-                var popupContent = '<table><tr><th scope="row">State</th><td>' + Autolinker.link(String(feature.properties['Stname'])) + '</td></tr><tr><th scope="row">Focal Poin</th><td>' + Autolinker.link(String(feature.properties['Focal Poin'])) + '</td></tr><tr><th scope="row">Email</th><td>' + Autolinker.link(String(feature.properties['Email'])) + '</td></tr><tr><th scope="row">Google group</th><td>' + Autolinker.link(String(feature.properties['Google gro'])) + '</td></tr><tr><th scope="row"># of CBOs</th><td>' + Autolinker.link(String(feature.properties['Number of'])) + '</td></tr></table>';
-                layer.bindPopup(popupContent);
-                }
-
-                function doStyleUntitled3shp(feature) {
-                        return {
-                            weight: 1.04,
-                            color: '#000000',
-                            fillColor: '#6c4d80',
-                            dashArray: '',
-                            opacity: 1.0,
-                            fillOpacity: 1.0
-                        };
-                }
-                        var json_Untitled3shpJSON = new L.geoJson(json_Untitled3shp, {
-                            onEachFeature: pop_Untitled3shp,
-                            style: doStyleUntitled3shp
-                        });
-                        layerOrder[layerOrder.length] = json_Untitled3shpJSON;
-                    layerOrder[layerOrder.length] = json_Untitled3shpJSON;
-                    for (index = 0; index < layerOrder.length; index++) {
-                        feature_group.removeLayer(layerOrder[index]); feature_group.addLayer(layerOrder[index]);
-                    }
-                    //add comment sign to hide this layer on the map in the initial view.
-                    feature_group.addLayer(json_Untitled3shpJSON);
-                    raster_group.addTo(map);
-                    feature_group.addTo(map);
-                </script>
-
-        </div>
-    </section>
-        <section id="capdev">
-        <div class="container">
-            <div class="row">
+                <iframe src="https://s3.amazonaws.com/uploads.knightlab.com/storymapjs/0589704e28470f31498c599e48ca0d77/state-level-coordination/index.html" frameborder="0" width="100%" height="800"></iframe>
+            </div>
                 <div class="col-lg-12 text-center">
                 <br>
-                    <h2>National NGO Capacity Development Working Group</h2>
+                    <h3>National NGO Capacity Development Working Group</h3>
                     <hr class="star-light">
                 </div>
-            </div>
             <div class="row">
             <p>The National NGO Capacity development Working Group has for a long time existed as a space to encourage dialogue among both national and international NGOs on best and practical ideas on enhancing the capacity of national NGOs in South Sudan, however the conflicting expectations from the National and International NGOs affected participation in the working group therefore the Working group has been remodeled into a National NGO mentorship/peer support space. The goal of this change is to address the core institutional capacity needs of the National NGOs through encouraging peer learning and peer support where stronger and better established National NGOs can mentor smaller and upcoming National NGOs by sharing their acquired knowledge, tools and practices with them on a one on one basis and build a culture of collaboration and peer support as well as institute a sustainable approach to institutional capacity building among National NGOs.</p>
             </div>
-        </div>
-    </section>
-    <section id="training">
-        <div class="container">
-            <div class="row">
                 <div class="col-lg-12 text-center">
                 <br>
-                    <h2>National NGO Monthly Trainings</h2>
+                    <h3>National NGO Monthly Trainings</h3>
                     <hr class="star-light">
                 </div>
-            </div>
             <div class="row">
             <p>Through a mutually beneficial partnership with private capacity building firms in South Sudan, the National NGO office introduced the National NGO monthly trainings in 2014 as one of the sustainable ways of developing National NGO institutional capacity. The private capacity building firms provide trainings to the National NGO staff on particular topics of need facilitated by the NGO secretariat and in return get advertising space on the South Sudan NGO Forum website. This partnership helps keep the cost of providing much needed trainings low and delivers benefits to the National NGO staff and the private capacity building firms.</p>
             </div>
-        </div>
-    </section>
