@@ -22,7 +22,17 @@
                     </ul>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                <p>For documents & research papers written or collected by the NGO Forum vistit the Information Portal
+                <p>For documents & research papers<script>var data = {
+  size: 5 // get 5 results
+  q: 'title:Tax' // query on the title field for 'jones'
+};
+$.ajax({
+  url: {{'http://info.southsudanngoforum.org'}}/_search,
+  dataType: 'jsonp',
+  success: function(data) {
+    alert('Total results found: ' + data.hits.total)
+  }
+});</script> written or collected by the NGO Forum vistit the Information Portal
                 </p>
                     <a href="http://info.southsudanngoforum.org" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> Information Portal
