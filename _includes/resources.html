@@ -21,9 +21,23 @@
                     	<li><strong>Job and Announcements Message Board: A message board hosted by the NGO Forum where NGO can post their job vacancies; <a style="color:white; text-decoration:underline" href="http://old.southsudanngoforum.org/boards/index.php?board=2.0">Job Vacancies</a></li>
                     </ul>
                 </div>
+
+// Javascript to load the information (this requires jQuery)
+// You can put this in the head of the page or in the page body.
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+  var group = 'economics';
+  var url = 'http://thedatahub.org/api/search/dataset?groups=' + group;
+  $.getJSON(url, function(data) {
+    // class selector for the page element where info should be inserted
+    $('.ckanjs-widget-count').html(data.count);
+  });
+});
+</script>
+                
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                 <p>For documents & research papers written or collected by the NGO Forum vistit the Information Portal
-                </p>
+                </p><span class="ckanjs-widget-count"></span>
                     <a href="http://info.southsudanngoforum.org" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> Information Portal
                     </a>
