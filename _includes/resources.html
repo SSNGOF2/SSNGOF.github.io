@@ -1,4 +1,15 @@
  <!-- Resources Section -->
+ <script type="text/javascript">
+jQuery(document).ready(function($) {
+  var group = 'tax';
+  var url = 'http://info.southsudanngoforum.org/api/search/dataset?' + group;
+  $.getJSON(url, function(data) {
+    // class selector for the page element where info should be inserted
+    $('.ckanjs-widget-count').html(data.count);
+  });
+});
+</script>
+
     <section class="success" id="resources">
         <div class="container">
             <div class="row">
@@ -22,20 +33,11 @@
                     </ul>
                 </div>
 
-<script>
-jQuery(document).ready(function($) {
-  var group = 'tax';
-  var url = 'http://info.southsudanngoforum.org/api/search/dataset?tags=' + group;
-  $.getJSON(url, function(data) {
-    // class selector for the page element where info should be inserted
-    $('.ckanjs-widget-count').html(data.count);
-  });
-});
-</script>
+
                 
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                 <span class="ckanjs-widget-count"></span>
-                <p>For documents & research papers written or collected by the NGO Forum vistit the Information Portal
+                <p>For documents <span class="ckanjs-widget-count"></span> & research papers written or collected by the NGO Forum vistit the Information Portal
                 </p><span class="ckanjs-widget-count"></span>
                     <a href="http://info.southsudanngoforum.org" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> Information Portal
