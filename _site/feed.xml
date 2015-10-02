@@ -5,76 +5,16 @@
     <description>The NGO Forum is an independent coordinating body of national and international NGOs that exists to serve and facilitate the work of its NGO members in order to efficiently and effectively address the humanitarian and development needs in South Sudan.</description>
     <link>http://southsudanngoforum.org/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 08 Sep 2015 14:06:56 +0300</pubDate>
-    <lastBuildDate>Tue, 08 Sep 2015 14:06:56 +0300</lastBuildDate>
+    <pubDate>Fri, 02 Oct 2015 08:56:09 +0300</pubDate>
+    <lastBuildDate>Fri, 02 Oct 2015 08:56:09 +0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Security</title>
+        <title>Sample</title>
         <description>This section will detail the security services/products the security team provide. Please check back later.</description>
         <pubDate>Fri, 18 Jul 2014 00:00:00 +0300</pubDate>
-        <link>http://southsudanngoforum.org/web%20development/2014/07/18/Security/</link>
-        <guid isPermaLink="true">http://southsudanngoforum.org/web%20development/2014/07/18/Security/</guid>
-        
-        
-        <category>web development</category>
-        
-      </item>
-    
-      <item>
-        <title>Human Resources</title>
-        <description>This section will detail the HR services that the NGO Forum provide/facilitate. Please check back later as its still a work in progress.</description>
-        <pubDate>Thu, 17 Jul 2014 00:00:00 +0300</pubDate>
-        <link>http://southsudanngoforum.org/web%20development/2014/07/17/Human-Resources/</link>
-        <guid isPermaLink="true">http://southsudanngoforum.org/web%20development/2014/07/17/Human-Resources/</guid>
-        
-        
-        <category>web development</category>
-        
-      </item>
-    
-      <item>
-        <title>Policy</title>
-        <description>This section is a work in progress. Please check back shortly</description>
-        <pubDate>Wed, 16 Jul 2014 00:00:00 +0300</pubDate>
-        <link>http://southsudanngoforum.org/web%20development/2014/07/16/Policy/</link>
-        <guid isPermaLink="true">http://southsudanngoforum.org/web%20development/2014/07/16/Policy/</guid>
-        
-        
-        <category>web development</category>
-        
-      </item>
-    
-      <item>
-        <title>Nngo Coordination</title>
-        <description>This section is a work in progress. Please check back shortly</description>
-        <pubDate>Tue, 15 Jul 2014 00:00:00 +0300</pubDate>
-        <link>http://southsudanngoforum.org/web%20development/2014/07/15/NNGO-Coordination/</link>
-        <guid isPermaLink="true">http://southsudanngoforum.org/web%20development/2014/07/15/NNGO-Coordination/</guid>
-        
-        
-        <category>web development</category>
-        
-      </item>
-    
-      <item>
-        <title>Coordination</title>
-        <description>This section is a work in progress. Please check back shortly</description>
-        <pubDate>Tue, 15 Jul 2014 00:00:00 +0300</pubDate>
-        <link>http://southsudanngoforum.org/web%20development/2014/07/15/Coordination/</link>
-        <guid isPermaLink="true">http://southsudanngoforum.org/web%20development/2014/07/15/Coordination/</guid>
-        
-        
-        <category>web development</category>
-        
-      </item>
-    
-      <item>
-        <title>Information Management</title>
-        <description>This section is a work in progress. Please check back shortly</description>
-        <pubDate>Mon, 14 Jul 2014 00:00:00 +0300</pubDate>
-        <link>http://southsudanngoforum.org/web%20development/2014/07/14/Information-Management/</link>
-        <guid isPermaLink="true">http://southsudanngoforum.org/web%20development/2014/07/14/Information-Management/</guid>
+        <link>http://southsudanngoforum.org/web%20development/2014/07/18/sample/</link>
+        <guid isPermaLink="true">http://southsudanngoforum.org/web%20development/2014/07/18/sample/</guid>
         
         
         <category>web development</category>

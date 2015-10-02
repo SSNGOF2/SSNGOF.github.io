@@ -32,6 +32,10 @@ a.active {
     color: #303030;
 }
 
+ol, ul {
+        font-size: 20px;
+}
+
 h1,
 h2,
 h3,
