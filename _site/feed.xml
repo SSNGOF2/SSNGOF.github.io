@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>South Sudan NGO Forum</title>
-    <description>The NGO Forum is an independent coordinating body of national and international NGOs that exists to serve and facilitate the work of its NGO members in order to efficiently and effectively address the humanitarian and development needs in South Sudan.</description>
+    <description>An independent coordinating body of national and international NGOs that facilitate members to efficiently and effectively address the humanitarian and development needs in South Sudan.</description>
     <link>http://southsudanngoforum.org/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 02 Oct 2015 08:56:09 +0300</pubDate>
-    <lastBuildDate>Fri, 02 Oct 2015 08:56:09 +0300</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
+    <pubDate>Wed, 07 Oct 2015 21:13:03 +0300</pubDate>
+    <lastBuildDate>Wed, 07 Oct 2015 21:13:03 +0300</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Sample</title>
