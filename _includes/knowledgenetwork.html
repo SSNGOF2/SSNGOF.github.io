@@ -12,8 +12,8 @@
 
  <script type="text/javascript">
 jQuery(document).ready(function($) {
-  var group = ' ';
-  var url = 'http://info.southsudanngoforum.org/api/action/package_search?fq=organization:knowledge-network' + group;
+  var group = 'tax';
+  var url = 'http://info.southsudanngoforum.org/api/search/dataset?' + group;
   $.getJSON(url, function(data) {
     // class selector for the page element where info should be inserted
     $('.ckanjs-widget-count').html(data.count);
@@ -46,7 +46,6 @@ jQuery(document).ready(function($) {
             <p>The database will be downloaded every 3 months and submitted to the University of Juba main library. This enables students and academics to access the database offline, through the library borrowing system and provides access to research papers without needing to pay costly fees to undertake hours of research on the internet</p>
         </div>
         <div class="col-lg-8 col-lg-offset-2 text-center">
-            <br>
             <br>
             <p><span class="ckanjs-widget-count"></span> papers uploaded to-date</p>
             <a href="http://info.southsudanngoforum.org/organization/knowledge-network" class="btn btn-lg btn-outline" style="border: solid 2px;">
