@@ -87,7 +87,7 @@ header {
     text-align: center;
     color: #fff;
     background: #{{ site.color.primary }};
-    height: 700px;
+    height: 800px;
 }
 
 header .container {
