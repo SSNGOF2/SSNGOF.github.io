@@ -31,7 +31,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Tearfund Compound, Hai Jerusalem,
+  #- line: Tearfund Compound, Hai Jerusalem,
+  - line: Concern Worldwide Offices Airport Road, Opp. Ebony International Bank
   - line: Juba, South Sudan
 
 # Credits content
