@@ -470,3 +470,43 @@ color: white;
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+/* notes: used to style boxes that contain important information that users should note when filling out forms */
+.notes {
+    padding: 0.2em;
+    background-color: #ebebeb;
+    /*border: 1px solid #ccc;*/
+    /*margin-bottom: 1em;*/
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.green-notes {
+    background-color: #ddf4ce;
+    border-color: #72CB67;
+}
+.blue-notes {
+    border-color: #50B0EC;
+    background: #dce6f3;
+}
+.yellow-notes {
+    background: #ffffcc;
+    border-color: #ebebeb;
+}
+.red-notes {
+    background: #f5dcdd;
+    border-color: #EC9B9B;
+}
+
+.notes .container p {
+    font-size: 90%;
+    margin: 0;
+    padding: 7px;
+}
+
+.navbar {
+    padding-top: 10px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+}
