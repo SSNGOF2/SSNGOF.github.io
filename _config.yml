@@ -1,46 +1,50 @@
-# Site settings
-title: South Sudan NGO Forum
-email: support@southsudanngoforum.org
-url: http://southsudanngoforum.org
-description: "An independent coordinating body of national and international NGOs that facilitate members to efficiently and effectively address the humanitarian and development needs in South Sudan."
-keywords: "South Sudan, NGO, NNGO, Information, Humanitarian, Development, Job, Vacancies, Coordination, Policy, Security"
-#baseurl:
+# Where things are
+source:      .
+destination: ./_site
+plugins_dir:     ./_plugins
+layouts_dir:     ./_layouts
+data_dir: ./_data
+pages_dir: ./_pages
+# collections: null
+# 
+# Handling Reading
+safe:         false
+include:      [".htaccess", "_pages"]
 
-# Contact form: comment the line below if you want to stick with the default PHP contact form
-contact: static
+exclude:      []
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 303030 #18bc9c #80B3FF
-  secondary: 6C4D80 #FD6E8A
-  secondary-dark: 303030 #A2122F
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      true
+unpublished: false
 
-# Footer settings
-footer:
-  copyright: South Sudan NGO Forum
-  location: Office Location
-  social: Supported by
-  credits: Latest News
+# Plugins
+whitelist: []
+gems:      
+  - jekyll-paginate
+  - jekyll-sitemap
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: github
-    url: http://github.com/jekyll
+# Serving
+detach:  false
+port:    4000
+host:    127.0.0.1
+baseurl: ""
 
-# Postal address (add as many lines as necessary)
-address:
-  #- line: Tearfund Compound, Hai Jerusalem,
-  - line: Concern Worldwide Offices Airport Road, Opp. Ebony International Bank
-  - line: Juba, South Sudan
+# Outputting
+permalink:     /:title.html
+paginate: 10
+paginate_path: /page:num
+timezone:      null
 
-# Credits content
-credits: 'test'
+quiet:    false
+defaults: []
 
-# Build settings
 markdown: kramdown
 permalink: pretty
 
-gems:
-  - jekyll-sitemap
+# Credits content
+credits: 'test'

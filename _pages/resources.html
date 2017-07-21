@@ -1,0 +1,32 @@
+---
+layout: default
+title: Resources
+slogan: NGO Forum Tools
+permalink: /resources/
+---
+<div class="q-row">
+    <div class="content q-col-1-1 wow animated fadeIn" data-wow-delay="0.2s" data-wow-duration="0.5s">
+        <p class="big-text"><em>Some of NGO Forum Tools.</em></p>
+
+        <div class="roadmap-archive">
+            <div class="roadmap-items q-clear">
+            {% assign i = 0 %}
+            {% for resource in site.data.resources %}
+                {%  assign i = i | plus: 1 %}
+                <div class="roadmap-item">
+                    <time>{{ i }}</time>
+                    <div class="item-body">
+                        <div class="q-row">
+                            <div class="q-col-1-1">
+                                <h3 class="item-title"><a href="{{ resource.url }}">{{ resource.title }}</a></h3>
+                                <p>{{ resource.description }}</p>
+                                <p><a href="{{ resource.url }}" class="button button-outline">View Resource <i class="fa fa-caret-right icon-on-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

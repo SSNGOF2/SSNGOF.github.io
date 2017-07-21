@@ -1,63 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>http://southsudanngoforum.org/about/</loc>
-    <lastmod>2015-10-07T21:13:03+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>http://southsudanngoforum.org/coordination/</loc>
-    <lastmod>2015-10-07T21:13:03+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://southsudanngoforum.org/</loc>
-    <lastmod>2015-10-07T21:13:03+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://southsudanngoforum.org/informationmanagement/</loc>
-    <lastmod>2015-10-07T21:13:03+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://southsudanngoforum.org/membership/</loc>
-    <lastmod>2015-10-07T21:13:03+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>http://southsudanngoforum.org/nngo/</loc>
-    <lastmod>2015-10-07T21:13:03+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://southsudanngoforum.org/policy/</loc>
-    <lastmod>2015-10-07T21:13:03+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://southsudanngoforum.org/recruitment/</loc>
-    <lastmod>2015-10-07T21:13:03+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://southsudanngoforum.org/security/</loc>
-    <lastmod>2015-10-07T21:13:03+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://southsudanngoforum.org/southsudanknowledgenetwork/</loc>
-    <lastmod>2015-10-07T21:13:03+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1</priority>
-  </url>
+<url>
+<loc>/about/</loc>
+</url>
+<url>
+<loc>/what-we-do/capacity-development/</loc>
+</url>
+<url>
+<loc>/circulars/</loc>
+</url>
+<url>
+<loc>/contact-us/</loc>
+</url>
+<url>
+<loc>/what-we-do/coordination/</loc>
+</url>
+<url>
+<loc>/what-we-do/external-engagement/</loc>
+</url>
+<url>
+<loc>/frequently-asked-questions/</loc>
+</url>
+<url>
+<loc>/</loc>
+</url>
+<url>
+<loc>/what-we-do/information-sharing/</loc>
+</url>
+<url>
+<loc>/membership/</loc>
+</url>
+<url>
+<loc>/what-we-do/ngo-networking/</loc>
+</url>
+<url>
+<loc>/what-we-do/nngo-coordination/</loc>
+</url>
+<url>
+<loc>/what-we-do/policy/</loc>
+</url>
+<url>
+<loc>/privacy/</loc>
+</url>
+<url>
+<loc>/recruitment/</loc>
+</url>
+<url>
+<loc>/resources/</loc>
+</url>
+<url>
+<loc>/what-we-do/security/</loc>
+</url>
+<url>
+<loc>/southsudan-knowledge-network/</loc>
+</url>
+<url>
+<loc>/terms-of-use/</loc>
+</url>
+<url>
+<loc>/what-we-do/</loc>
+</url>
+<url>
+<loc>/assets/js/plugins/animate/index.html</loc>
+<lastmod>2016-11-04T12:20:46+03:00</lastmod>
+</url>
+<url>
+<loc>/google24ed41f7d078cf21.html</loc>
+<lastmod>2017-07-21T15:18:56+03:00</lastmod>
+</url>
 </urlset>
