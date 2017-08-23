@@ -22,11 +22,15 @@
   description: "3W Data Visualization for National NGOs at County Level"
   url: "http://southsudanngoforum.org/3w-nngo"
 
+- title: "National NGO Capicity Development Tool"
+  description: "This tool will help provide qualitative and quantitative information that will inform the NNGO capacity status debate."
+  url: "http://www.nngocaptool.org/"
+
 - title: "Legislations & Regulations"
   description: "NGO Forum repository of government circulars, Legislations and Regulatory guidance."
   url: "http://docs.southsudanngoforum.org/regulation"
 
-- title: "coordination"
+- title: "Coordination"
   description: "NGO Forum  repositoy of coordination guidance documents"
   url: "http://docs.southsudanngoforum.org/coordination"
 
@@ -54,15 +58,10 @@
   description: "Livemap of NGO Operations"
   url: "http://southsudanngoforum.org/OperationsDashboard/"
 
-# - title: "INGO 3W:OP mobile app"
-#   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-#   url: "https://build.phonegap.com/apps/1614016/share/"
+- title: "INGO 3W:OP mobile app"
+  description: "A Mobile App showing the 3Ws Operational Presence"
+  url: "https://build.phonegap.com/apps/1614016/share/"
 
 - title: "13 stories for World Humanitarian Day"
   description: "Humanitarian stories from member NGOs on World Humanitarian Day"
   url: "http://southsudanngoforum.org/WorldHumanitarianDay/"
-  
-- title: "National NGO Capicity Development Tool"
-  description: "This tool will help provide qualitative and quantitative information that will inform the NNGO capacity status debate."
-  url: "http://www.nngocaptool.org/"
-  
