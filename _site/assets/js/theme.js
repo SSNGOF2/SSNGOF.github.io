@@ -2,7 +2,6 @@
 	"use strict";
 
 	// Navigation menu
-	
 	var $navList = $( '#nav > ul' );
 	var $navBreakPoint = 768;
 
@@ -38,6 +37,21 @@
 		}
 	});
 
+	// get no of slides
+	var items_count = $('#header-full-width .carousel-inner').children('.item').length,
+		lis = [],
+		i = 0;
+	for ( i; i < items_count; i++)
+	{
+		lis.push('<li data-target="#header-full-width" data-slide-to="'+ i +'"></li>');
+	}
+
+	$("#header-full-width").prepend('<ol class="carousel-indicators"> '+ lis.join('') +' </ol>');
+	$('#header-full-width .item:first, #header-full-width .carousel-indicators li:first').addClass('active');
+	$('#header-full-width .carousel-caption a').attr({ "role" : "button" }).addClass('btn btn-outline-inverse').append(" »");
+	$('#header-full-width').carousel({ 
+		interval: 3000 //changes the speed
+	});
 
 	// Initializing sliders
 	$( '.simple-slider' ).owlCarousel({
