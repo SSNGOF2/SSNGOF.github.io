@@ -549,6 +549,7 @@ p {
 .page-header {
 	padding: 35px 0 15px 0;
 	background-color: #f8f8f8;
+	margin: 0px;
 /*	background-image: url(../img/header-flag.png);
 	background-repeat: no-repeat;
 	background-position: 30% center;*/
