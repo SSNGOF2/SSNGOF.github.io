@@ -1,0 +1,30 @@
+---
+layout: default
+title: Events 
+slogan: Cluster Calendar
+permalink: /cluster-calendar/
+---
+<div class="q-row">
+   <div class="content q-col-1-1 wow animated fadeIn" data-wow-delay="0.2s" data-wow-duration="0.5s">
+   		<div id="demo-accordion" class="accordion">
+   			<ul class="resp-tabs-list"></ul>
+   			<div class="resp-tabs-container"></div>
+		</div>
+	</div>
+</div>
+<script>
+$(document).ready(function() {
+    
+    $.get('http://apps.southsudanngoforum.org/data/events', function(res) {
+        titles = [], details = [];
+        $.each(res, function(k, v )
+        {
+        	titles.push(v.title);
+        	_dates = v.description.split(", ")
+        	details.push( _dates.join(" ") )
+        });
+        $('.resp-tabs-list').empty().html("<li>" + titles.join("</li><li>") + "</li>");
+        $('.resp-tabs-container').empty().html("<div><p>" + titles.join("</p></div><div><p>") + "</p></div>");
+    }, 'json'); 
+});
+</script>
