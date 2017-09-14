@@ -1,30 +1,31 @@
 ---
 layout: default
-title: Events 
-slogan: Cluster Calendar
-permalink: /cluster-calendar/
+title: Clusters Calendar 
+slogan: Meetings
+permalink: /clusters-calendar/
 ---
 <div class="q-row">
-   <div class="content q-col-1-1 wow animated fadeIn" data-wow-delay="0.2s" data-wow-duration="0.5s">
-   		<div id="demo-accordion" class="accordion">
-   			<ul class="resp-tabs-list"></ul>
-   			<div class="resp-tabs-container"></div>
-		</div>
-	</div>
+    <div class="q-col-1-1 wow animated fadeIn" data-wow-delay="0.2s" data-wow-duration="0.5s">
+        <div id="full-cluster-calendar"><div class="loading-mask"><h2>Loading Events...</h2></div></div>
+    </div>
 </div>
 <script>
 $(document).ready(function() {
-    
-    $.get('http://apps.southsudanngoforum.org/data/events', function(res) {
-        titles = [], details = [];
-        $.each(res, function(k, v )
+    $.getJSON("{{ site.data.nav.clusters_url }}", function(res) 
+    {
+        result = JSON.parse(JSON.stringify(res));
+        events = [];
+        $.each(result, function(k, v) 
         {
-        	titles.push(v.title);
-        	_dates = v.description.split(", ")
-        	details.push( _dates.join(" ") )
+            e ="<div class='forum-calendar-events'><h4><a href='"+ v.link +"'>"+ v.title +"</a></h4><span class='location'>"+ v.location +"</span>";
+            $.each(v.description, function(_k, _v) 
+            {
+                e +="<span class='event-date'>"+ _v +"</span>";
+            });
+            e +="</div>";
+            events.push( e );
         });
-        $('.resp-tabs-list').empty().html("<li>" + titles.join("</li><li>") + "</li>");
-        $('.resp-tabs-container').empty().html("<div><p>" + titles.join("</p></div><div><p>") + "</p></div>");
-    }, 'json'); 
+        $("#full-cluster-calendar").empty().html( events.join("") );
+    });
 });
 </script>

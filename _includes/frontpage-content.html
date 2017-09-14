@@ -21,24 +21,23 @@
 					</div>
 				</article>
 				<article class="q-col-1-3 wow animated fadeInUp" data-wow-offset="300" data-wow-duration="1s">
-					<div class="article-headline"><h3 class="sub-headline deco-headline"><a href="{{ '/what-we-do/policy/' | prepend:site.data.global.url }}">Policy</a></h3></div>
+					<div class="article-headline"><h3 class="sub-headline deco-headline"><a href="#">Cluster Meetings <span id="cluster-month-date"></span></a></h3></div>
 					<div class="article-summary">
-						<div class="article-image"><a href="{{ '/what-we-do/policy/' | prepend:site.data.global.url }}"><img src="assets/img/policy.png" alt="Policy"></a></div>
-						<p>The NGO Forum works to support and represent priority interests of the Forum members with authorities, donors, UN agencies and other relevant stakeholders.</p>
-						<p><a href="{{ '/what-we-do/policy/' | prepend:site.data.global.url }}" class="button button-alt button-outline">Read More</a></p>
+						<div id="cluster-calendar"><div class="loading-mask"><h2>Loading Events...</h2></div></div>
+						<p><a target="_blank" href="{{ '/clusters-calendar/' | prepend:site.data.global.url }}" class="button button-alt button-outline">Read More</a></p>
 					</div>
 				</article>
-			</div>
-			<div class="q-row">
-				<article class="q-col-1-3 wow animated fadeInUp" data-wow-offset="200" data-wow-duration="1s">
-					<div class="article-headline"><h3 class="sub-headline deco-headline"><a href="{{ '/what-we-do/ngo-networking/' | prepend:site.data.global.url }}">INGO-NNGO <span>Networking</span></a></h3></div>
-					<div class="article-summary">
-						<div class="article-image"><a href="{{ '/what-we-do/ngo-networking/' | prepend:site.data.global.url }}"><img src="assets/img/ss-ngo-networking.png" alt="NNGO Networking"></a></div>
-						<p>The NGO Forum is committed to strengthening the networking and partnership between international and national NGOs . </p>
-						<p><a href="{{ '/what-we-do/ngo-networking/' | prepend:site.data.global.url }}" class="button button-alt button-outline">Read More</a></p>
-					</div>
-				</article>
+			</div>			
 
+			<div class="q-row">
+				<article class="q-col-1-3 wow animated fadeInUp" data-wow-offset="300" data-wow-duration="1s">
+					<div class="article-headline"><h3 class="sub-headline deco-headline"><a href="http://southsudanngoforum.org/what-we-do/policy/">Policy</a></h3></div>
+					<div class="article-summary">
+						<div class="article-image"><a href="http://southsudanngoforum.org/what-we-do/policy/"><img src="assets/img/policy.png" alt="Policy"></a></div>
+						<p>The NGO Forum works to support and represent priority interests of the Forum members with authorities, donors, UN agencies and other relevant stakeholders.</p>
+						<p><a href="http://southsudanngoforum.org/what-we-do/policy/" class="button button-alt button-outline">Read More</a></p>
+					</div>
+				</article>		
 				<article class="q-col-1-3 wow animated fadeInUp" data-wow-offset="100" data-wow-duration="1s">
 					<div class="article-headline"><h3 class="sub-headline deco-headline"><a href="page-wide.php#demo-tabs-hor1">SAFETY <span>& Security</span></a></h3></div>
 					<div class="article-summary">
@@ -46,9 +45,42 @@
 						<p>The NGO Forum provides members with accessible and timely security and access- related information, advice, and best practices.</p>
 						<p><a href="{{ '/what-we-do/security/' | prepend:site.data.global.url }}" class="button button-alt button-outline">Read More</a></p>
 					</div>
-				</article>			
-			</div>			
+				</article>	
+				<article class="q-col-1-3 wow animated fadeInUp" data-wow-offset="200" data-wow-duration="1s">
+					<div class="article-headline"><h3 class="sub-headline deco-headline"><a href="{{ '/what-we-do/ngo-networking/' | prepend:site.data.global.url }}">INGO-NNGO <span>Networking</span></a></h3></div>
+					<div class="article-summary">
+						<div class="article-image"><a href="{{ '/what-we-do/ngo-networking/' | prepend:site.data.global.url }}"><img src="assets/img/ss-ngo-networking.png" alt="NNGO Networking"></a></div>
+						<p>The NGO Forum is committed to strengthening the networking and partnership between international and national NGOs . </p>
+						<p><a href="{{ '/what-we-do/ngo-networking/' | prepend:site.data.global.url }}" class="button button-alt button-outline">Read More</a></p>
+					</div>
+				</article>	
+			</div>		
 		</div>
 	</div>
 	<!-- End: Article Grid -->	
 </main>
+
+<script>
+$(function()
+{
+	_date = moment().format("MMMM  YYYY");
+	$("#cluster-month-date").empty().html(" - "+ _date );
+
+    $.getJSON("{{ site.data.nav.clusters_url }}/1", function(res) 
+    {
+        result = JSON.parse(JSON.stringify(res));
+        events = [];
+        $.each(result, function(k, v) 
+        {
+            e ="<div class='forum-calendar-events'><h5><a href='"+ v.link +"'>"+ v.title +"</a></h5><span class='location'>"+ v.location +"</span>";
+        	$.each(v.description, function(_k, _v) 
+        	{
+        		e +="<span class='event-date'>"+ _v +"</span>";
+        	});
+        	e +="</div>";
+            events.push( e );
+        });
+        $("#cluster-calendar").empty().html( events.join("") );
+    });
+});	
+</script>
