@@ -6,6 +6,10 @@
   description: "This is a form to report the Security incidents. Your message should be short and to the point, providing the 6Ws. Who, where, when, what happened, what you did, what you need."
   url: "https://docs.google.com/forms/d/1rICS4K_w2WpXDss0B-gb74j_9kgDy4oODi13IKOq6wc/viewform?usp=send_form"
 
+- title: "Documents Repository"
+  description: "NGO Forum repository of government circulars, coordination, legislations and regulatory guidance documents."
+  url: "http://docs.southsudanngoforum.org"
+
 - title: "Tender Advertisements"
   description: "This a message board where our partners submit tender advertisements."
   url: "http://comms.southsudanngoforum.org/c/tenders" 
@@ -22,17 +26,13 @@
   description: "3W Data Visualization for National NGOs at County Level"
   url: "http://southsudanngoforum.org/3w-nngo"
 
+- title: "Courses & Trainings"
+  description: "This a message board where Courses and Trainings are advertised."
+  url: "http://comms.southsudanngoforum.org/c/capacity-development" 
+
 - title: "National NGO Capicity Development Tool"
   description: "This tool will help provide qualitative and quantitative information that will inform the NNGO capacity status debate."
   url: "http://www.nngocaptool.org/"
-
-- title: "Legislations & Regulations"
-  description: "NGO Forum repository of government circulars, Legislations and Regulatory guidance."
-  url: "http://docs.southsudanngoforum.org/regulation"
-
-- title: "Coordination"
-  description: "NGO Forum  repositoy of coordination guidance documents"
-  url: "http://docs.southsudanngoforum.org/coordination"
 
 - title: "Access Constrains"
   description: "Report your Access Constrains"
@@ -45,10 +45,6 @@
 - title: "Incidents of Sexual Violence against Staff"
   description: "Report incidents of sexual Violence."
   url: "https://docs.google.com/forms/d/e/1FAIpQLScfEwG-JXWsuFr5gqIpqAI5m3EirB1sQ7GX2Y52yM102tvNIg/viewform"
-
-- title: "Courses & Trainings"
-  description: "This a message board where Courses and Trainings are advertised."
-  url: "http://comms.southsudanngoforum.org/c/capacity-development" 
 
 - title: "South Sudan Knowledge Network"
   description: "The South Sudan Knowledge Network is an information platform where research on South Sudan is collected and housed. It is a one stop shop for research conducted on South Sudan that is available for public access."

@@ -2320,3 +2320,8 @@ h2.resp-tab-active:before {
 .forum-calendar-events h5 a, #full-cluster-calendar  h4 {
 	text-transform: uppercase;
 }
+
+#storymap-embed {
+	height: 400px;
+	width: 100%;
+}
