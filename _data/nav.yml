@@ -41,7 +41,6 @@ main:
 state_level_coordination_api: "/api/state-level-coordination/"
 clusters_url: "http://apps.southsudanngoforum.org/data/cluster_meetings"
 
-
 nngo_expo_registration_form: "https://goo.gl/forms/9ANQeVWYQ10QvQdp2"
 membership_registration_form: "https://goo.gl/forms/XYcswkyOXJMBEBfL2"
 

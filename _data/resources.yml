@@ -10,14 +10,6 @@
   description: "NGO Forum repository of government circulars, coordination, legislations and regulatory guidance documents."
   url: "http://docs.southsudanngoforum.org"
 
-- title: "Tender Advertisements"
-  description: "This a message board where our partners submit tender advertisements."
-  url: "http://comms.southsudanngoforum.org/c/tenders" 
-
-- title: "Job Advertisements"
-  description: "This a message board where our partners submit job applications."
-  url: "http://comms.southsudanngoforum.org/c/jobs/" 
-
 - title: "INGO Operational Presence 3W"
   description: "3W Data Visualization for International NGOs at County Level"
   url: "http://southsudanngoforum.org/3w"
@@ -25,6 +17,18 @@
 - title: "NNGO Operational Presence 3W"
   description: "3W Data Visualization for National NGOs at County Level"
   url: "http://southsudanngoforum.org/3w-nngo"
+
+- title: "Update Your Organization 3Ws"
+  description: "The purpose of this form is to replace your organisations operational presence as it appears INGO &amp; NNGO Operational Presence 3W tools."
+  url: "https://goo.gl/forms/4oeO580OmvUHeJ2S2"
+
+- title: "Tender Advertisements"
+  description: "This a message board where our partners submit tender advertisements."
+  url: "http://comms.southsudanngoforum.org/c/tenders" 
+
+- title: "Job Advertisements"
+  description: "This a message board where our partners submit job applications."
+  url: "http://comms.southsudanngoforum.org/c/jobs/" 
 
 - title: "Courses & Trainings"
   description: "This a message board where Courses and Trainings are advertised."
