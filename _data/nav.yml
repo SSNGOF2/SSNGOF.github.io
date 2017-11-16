@@ -23,6 +23,8 @@ main:
   - text: 'Tools'
     url: '#'  
     subitems: 
+      - text: 'Documents Portal'
+        url: 'http://docs.southsudanngoforum.org'
       - text: 'INGOs 3W Presence'
         url: 'http://southsudanngoforum.org/3w'
       - text: 'NNGOs 3W Presence'
@@ -70,6 +72,7 @@ legislation_documents_link: "http://docs.southsudanngoforum.org/regulation"
 ingo_operation_presence_link: "http://docs.southsudanngoforum.org/regulation"
 nngo_operation_presence_link: "http://docs.southsudanngoforum.org/regulation"
 nngo_capacity_tool: "http://nngocaptool.org/"
+operational_presence_tool: "http://southsudanngoforum.org/3w"
 
 
 

@@ -121,6 +121,10 @@ h6 {
 	font-style: normal;
 	color: #6c4d80;
 }
+.section-headline.inverted em.capitalize {
+	text-transform: capitalize !important;
+	font-size: 90%;
+}
 .section-headline a {
 	color: #054469;
 }
@@ -619,7 +623,7 @@ p {
 	width: 100%;
 	height: 100%;
 	background-repeat: no-repeat;
-	background-position: bottom right 5%;
+	background-position: bottom right;
 	background-size: 50%;
 }
 
