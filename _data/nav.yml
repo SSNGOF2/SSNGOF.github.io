@@ -44,10 +44,17 @@ state_level_coordination_api: "/api/state-level-coordination/"
 clusters_url: "http://apps.southsudanngoforum.org/data/cluster_meetings"
 
 nngo_expo_registration_form: "https://goo.gl/forms/9ANQeVWYQ10QvQdp2"
-membership_registration_form: "https://goo.gl/forms/XYcswkyOXJMBEBfL2"
+
+# 2017
+# membership_registration_form: "https://goo.gl/forms/XYcswkyOXJMBEBfL2"
+
+# 2018
+membership_registration_form: "https://goo.gl/forms/uxJXT3zKP8G6fsTY2"
+
 
 # https://docs.google.com/forms/d/1rICS4K_w2WpXDss0B-gb74j_9kgDy4oODi13IKOq6wc/viewform?usp=send_form
-report_security_incident_form : "https://docs.google.com/spreadsheet/viewform?formkey=dFNlWXFFRTBSSFNvbWpKVlMwZlVPMnc6MQ"
+report_security_incident_form: "https://goo.gl/forms/hrJDBYIH4xpmv0Mp2"
+
 access_constraint_form: "https://docs.google.com/a/southsudanngoforum.org/forms/d/13xBnAkH07grMOqrsCIobWxteX5wmrS5f0xOl-x88k0w/viewform"
 emergency_relocation_form: "https://docs.google.com/a/southsudanngoforum.org/forms/d/14dEkJF3oIA_LmlNq6FBVD5YpuRW8lwABQ1_0pfvUeF0/viewform?"
 sexual_violence_form: "https://docs.google.com/forms/d/e/1FAIpQLScfEwG-JXWsuFr5gqIpqAI5m3EirB1sQ7GX2Y52yM102tvNIg/viewform"
