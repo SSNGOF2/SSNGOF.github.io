@@ -1,10 +1,10 @@
 - title: "Membership Registration"
   description: "Register with NGO Forum and join many other NGOs and other partners."
-  url: "https://goo.gl/forms/XYcswkyOXJMBEBfL2"
+  url: "/membership/registration/"
 
 - title: "Security Incidents"
   description: "This is a form to report the Security incidents. Your message should be short and to the point, providing the 6Ws. Who, where, when, what happened, what you did, what you need."
-  url: "https://docs.google.com/forms/d/1rICS4K_w2WpXDss0B-gb74j_9kgDy4oODi13IKOq6wc/viewform?usp=send_form"
+  url: "https://goo.gl/forms/hrJDBYIH4xpmv0Mp2"
 
 - title: "Documents Repository"
   description: "NGO Forum repository of government circulars, coordination, legislations and regulatory guidance documents."
