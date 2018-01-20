@@ -50,7 +50,7 @@
 	$('#header-full-width .item:first, #header-full-width .carousel-indicators li:first').addClass('active');
 	$('#header-full-width .carousel-caption a').attr({ "role" : "button" }).addClass('btn btn-outline-inverse').append(" »");
 	$('#header-full-width').carousel({ 
-		interval: 3000 //changes the speed
+		interval: 4000 //changes the speed
 	});
 
 	// Initializing sliders
