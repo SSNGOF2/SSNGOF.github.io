@@ -55,9 +55,9 @@
 
 	// Initializing sliders
 	$( '.simple-slider' ).owlCarousel({
-		autoPlay: 7000,
+		autoPlay: 10000,
 		stopOnHover: true,
-		slideSpeed: 200,
+		slideSpeed: 300,
 		paginationSpeed: 800,
 		rewindSpeed: 800,
 		singleItem: true
