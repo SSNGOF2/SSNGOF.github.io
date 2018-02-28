@@ -32,7 +32,7 @@ main:
       - text: 'State Coordination'
         url: '/tools/state-coordination/'
       - text: 'NNGO Capacity Tool'
-        url: 'http://www.nngocaptool.org/'
+        url: '/nngo-capacity-tool/'
   - text: 'FAQs'
     url: '/frequently-asked-questions/'
   - text: 'Contact Us'
