@@ -33,6 +33,8 @@ main:
         url: '/tools/state-coordination/'
       - text: 'NNGO Capacity Tool'
         url: '/nngo-capacity-tool/'
+      - text: 'Events Calendar'
+        url: '/events/calendar/'
   - text: 'FAQs'
     url: '/frequently-asked-questions/'
   - text: 'Contact Us'
@@ -50,7 +52,6 @@ nngo_expo_registration_form: "https://goo.gl/forms/9ANQeVWYQ10QvQdp2"
 
 # 2018
 membership_registration_form: "https://goo.gl/forms/uxJXT3zKP8G6fsTY2"
-
 
 # https://docs.google.com/forms/d/1rICS4K_w2WpXDss0B-gb74j_9kgDy4oODi13IKOq6wc/viewform?usp=send_form
 report_security_incident_form: "https://goo.gl/forms/hrJDBYIH4xpmv0Mp2"
@@ -72,14 +73,15 @@ capacity_development_link: "http://comms.southsudanngoforum.org/c/capacity-devel
 courses_and_trainings_link: "http://comms.southsudanngoforum.org/c/capacity-development"
 
 #documents
-coordination_documents_link: "http://docs.southsudanngoforum.org/coordination"
-security_documents_link: "http://docs.southsudanngoforum.org/security"
-legislation_documents_link: "http://docs.southsudanngoforum.org/regulation"
+security_documents_link: "http://docs.southsudanngoforum.org/index.php/security/security-guidance-documents"
+coordination_documents_link: "http://docs.southsudanngoforum.org/index.php/regulation/circulars"
+legislation_documents_link: "http://docs.southsudanngoforum.org/index.php/regulation/legislation"
 
-ingo_operation_presence_link: "http://docs.southsudanngoforum.org/regulation"
-nngo_operation_presence_link: "http://docs.southsudanngoforum.org/regulation"
-nngo_capacity_tool: "http://nngocaptool.org/"
+ingo_operation_presence_link: "http://southsudanngoforum.org/3w"
+nngo_operation_presence_link: "http://southsudanngoforum.org/3w-nngo"
+nngo_capacity_tool: "http://nngocaptool.southsudanngoforum.org/"
 operational_presence_tool: "http://southsudanngoforum.org/3w"
 
-
+events_link: "http://apps.southsudanngoforum.org/events/home"
+create_event_link: "http://apps.southsudanngoforum.org/events/create"
 
