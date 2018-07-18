@@ -2,9 +2,9 @@
   description: "Register with NGO Forum and join many other NGOs and other partners."
   url: "/membership/registration/"
 
-- title: "Security Incidents"
-  description: "This is a form to report the Security incidents. Your message should be short and to the point, providing the 6Ws. Who, where, when, what happened, what you did, what you need."
-  url: "https://goo.gl/forms/hrJDBYIH4xpmv0Mp2"
+- title: "Resilience Exchange Network"
+  description: "A platform through which NGOs share knowledge, expertise and learning on resilience programming."
+  url: "http://docs.southsudanngoforum.org/page/resilience-exchange-network"
 
 - title: "Documents Repository"
   description: "NGO Forum repository of government circulars, coordination, legislations and regulatory guidance documents."
@@ -18,13 +18,21 @@
   description: "3W Data Visualization for National NGOs at County Level"
   url: "http://southsudanngoforum.org/3w-nngo"
 
-- title: "Update Your Organization 3Ws"
-  description: "The purpose of this form is to replace your organisations operational presence as it appears INGO &amp; NNGO Operational Presence 3W tools."
-  url: "https://goo.gl/forms/4oeO580OmvUHeJ2S2"
+- title: "National NGO Capicity Development Tool"
+  description: "This tool will help provide qualitative and quantitative information that will inform the NNGO capacity status debate."
+  url: "http://nngocaptool.southsudanngoforum.org/"
 
-- title: "Tender Advertisements"
-  description: "This a message board where our partners submit tender advertisements."
-  url: "http://comms.southsudanngoforum.org/c/tenders" 
+- title: "Security Incidents"
+  description: "This is a form to report the Security incidents. Your message should be short and to the point, providing the 6Ws. Who, where, when, what happened, what you did, what you need."
+  url: "https://goo.gl/forms/hrJDBYIH4xpmv0Mp2"
+
+- title: "South Sudan Knowledge Network"
+  description: "The South Sudan Knowledge Network is an information platform where research on South Sudan is collected and housed. It is a one stop shop for research conducted on South Sudan that is available for public access."
+  url: "http://southsudanknowledgenetwork.org/"
+
+- title: "Access Constrains"
+  description: "Report your Access Constrains"
+  url: "https://goo.gl/forms/KwRKs42DdlzIPSzn2"
 
 - title: "Job Advertisements"
   description: "This a message board where our partners submit job applications."
@@ -34,13 +42,13 @@
   description: "This a message board where Courses and Trainings are advertised."
   url: "http://comms.southsudanngoforum.org/c/capacity-development" 
 
-- title: "National NGO Capicity Development Tool"
-  description: "This tool will help provide qualitative and quantitative information that will inform the NNGO capacity status debate."
-  url: "http://www.nngocaptool.org/"
+- title: "Tender Advertisements"
+  description: "This a message board where our partners submit tender advertisements."
+  url: "http://comms.southsudanngoforum.org/c/tenders" 
 
-- title: "Access Constrains"
-  description: "Report your Access Constrains"
-  url: "https://goo.gl/forms/KwRKs42DdlzIPSzn2"
+- title: "Update Your Organization 3Ws"
+  description: "The purpose of this form is to replace your organisations operational presence as it appears INGO &amp; NNGO Operational Presence 3W tools."
+  url: "https://goo.gl/forms/4oeO580OmvUHeJ2S2"
 
 # - title: "Emergency Relocation Forms"
 #   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
@@ -49,10 +57,6 @@
 - title: "Incidents of Sexual Violence against Staff"
   description: "Report incidents of sexual Violence."
   url: "https://docs.google.com/forms/d/e/1FAIpQLScfEwG-JXWsuFr5gqIpqAI5m3EirB1sQ7GX2Y52yM102tvNIg/viewform"
-
-- title: "South Sudan Knowledge Network"
-  description: "The South Sudan Knowledge Network is an information platform where research on South Sudan is collected and housed. It is a one stop shop for research conducted on South Sudan that is available for public access."
-  url: "http://southsudanknowledgenetwork.org/"
 
 - title: "Operations Dashboard"
   description: "Livemap of NGO Operations"
