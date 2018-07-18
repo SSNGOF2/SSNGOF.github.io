@@ -23,6 +23,8 @@ main:
   - text: 'Tools'
     url: '#'  
     subitems: 
+      - text: 'Resilience Exchange Network'
+        url: 'http://docs.southsudanngoforum.org/page/resilience-exchange-network'
       - text: 'Documents Portal'
         url: 'http://docs.southsudanngoforum.org'
       - text: 'INGOs 3W Presence'
@@ -33,8 +35,6 @@ main:
         url: '/tools/state-coordination/'
       - text: 'NNGO Capacity Tool'
         url: '/nngo-capacity-tool/'
-      - text: 'Events Calendar'
-        url: '/events/calendar/'
   - text: 'FAQs'
     url: '/frequently-asked-questions/'
   - text: 'Contact Us'
