@@ -48,7 +48,8 @@ clusters_url: "http://apps.southsudanngoforum.org/data/cluster_meetings"
 nngo_expo_registration_form: "https://goo.gl/forms/9ANQeVWYQ10QvQdp2"
 
 internship_initiative_link: "https://goo.gl/forms/tT6gM6yRTF5MNcY22"
-membership_registration_page: "/membership/registration/"
+# membership_registration_page: "/membership/registration/"
+membership_registration_page: "/membership/registration-closed/"
 
 # 2017
 # membership_registration_form: "https://goo.gl/forms/XYcswkyOXJMBEBfL2"
