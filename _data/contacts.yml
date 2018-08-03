@@ -11,9 +11,13 @@ staff:
     name: "Chris Gosney"
     email: "security@southsudanngoforum.org"
   
-  - title: "Deputy Security Focal Point"
-    name: "Martin Ochere"
-    email: "dep-security@southsudanngoforum.org"
+  - title: "Communications Advisor"
+    name: "Liatile Putsoa"
+    email: "comms@southsudanngoforum.org "
+
+  - title: "Humanitarian Advisor"
+    name: "Robert Jones"
+    email: "rjones@unicef.org"
 
   - title: "Information Manager"
     name: "Kenneth Muturi"
@@ -22,11 +26,3 @@ staff:
   - title: "NNGO Information Officer"
     name: "Paul Doctor"
     email: "nngo-info@southsudanngoforum.org"
-
-  - title: "NNGO State Coordinator"
-    name: "Shamila Khaltuma"
-    email: "nngo-states@southsudanngoforum.org "
-
-  - title: "Administrative Officer"
-    name: "Kenyi Alex"
-    email: "ops@southsudanngoforum.org"
