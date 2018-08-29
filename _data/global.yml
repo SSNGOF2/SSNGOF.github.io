@@ -6,7 +6,8 @@ admin_email: 'infomgr@southsudanngoforum.org '
 
 # Site settings
 title: South Sudan NGO Forum
-slogan: "Facilitating NGOs to effectively operate in South Sudan!"
+# slogan: "Facilitating NGOs to effectively operate in South Sudan!"
+slogan: "Supporting its members to save lives and improve lives"
 mission: "Supporting its members to save lives and improve lives"
 
 email: support@southsudanngoforum.org
