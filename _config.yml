@@ -8,7 +8,9 @@ pages_dir: ./_pages
 # collections: null
 # 
 # Handling Reading
-safe:         false
+safe:         true
+sitemap:      true
+
 include:      [".htaccess", "_pages"]
 
 exclude:      []
