@@ -43,7 +43,8 @@ main:
 # forms & links
 # state_level_coordination_api: "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/0589704e28470f31498c599e48ca0d77/state-level-coordination/"
 state_level_coordination_api: "/api/state-level-coordination/"
-clusters_url: "http://apps.southsudanngoforum.org/data/cluster_meetings"
+# clusters_url: "http://apps.southsudanngoforum.org/data/cluster_meetings"
+clusters_url: "http://apps.southsudanngoforum.org/api/data/cluster-meetings"
 
 nngo_expo_registration_form: "https://goo.gl/forms/9ANQeVWYQ10QvQdp2"
 
