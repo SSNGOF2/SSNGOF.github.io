@@ -65,7 +65,7 @@ $(function()
 	_date = moment().format("MMMM  YYYY");
 	$("#cluster-month-date").empty().html(" - "+ _date );
 
-    $.getJSON("{{ site.data.nav.clusters_url }}/1", function(res) 
+    $.getJSON("{{ site.data.nav.clusters_url }}", function(res) 
     {
         result = JSON.parse(JSON.stringify(res));
         events = [];
