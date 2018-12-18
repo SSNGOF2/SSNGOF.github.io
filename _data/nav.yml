@@ -48,15 +48,23 @@ clusters_url: "http://apps.southsudanngoforum.org/api/data/cluster-meetings"
 
 nngo_expo_registration_form: "https://goo.gl/forms/9ANQeVWYQ10QvQdp2"
 
-internship_initiative_link: "https://goo.gl/forms/tT6gM6yRTF5MNcY22"
-# membership_registration_page: "/membership/registration/"
-membership_registration_page: "/membership/registration-closed/"
+# internship_initiative_link: "https://goo.gl/forms/tT6gM6yRTF5MNcY22"
+
+internship_initiative_link: "http://apps.southsudanngoforum.org/internship/programme/applications/2/module"
+
+internship_initiative_host_agency_link: "http://apps.southsudanngoforum.org/internship/host-agencies/applications/3/module"
+
+membership_registration_page: "/membership/registration/"
+# membership_registration_page: "/membership/registration-closed/"
 
 # 2017
 # membership_registration_form: "https://goo.gl/forms/XYcswkyOXJMBEBfL2"
 
 # 2018
-membership_registration_form: "https://goo.gl/forms/uxJXT3zKP8G6fsTY2"
+# membership_registration_form: "https://goo.gl/forms/uxJXT3zKP8G6fsTY2"
+
+# 2019
+membership_registration_form: "http://apps.southsudanngoforum.org/membership/home"
 
 # https://docs.google.com/forms/d/1rICS4K_w2WpXDss0B-gb74j_9kgDy4oODi13IKOq6wc/viewform?usp=send_form
 report_security_incident_form: "https://goo.gl/forms/hrJDBYIH4xpmv0Mp2"
@@ -91,4 +99,3 @@ operational_presence_tool: "http://southsudanngoforum.org/3w"
 
 events_link: "http://apps.southsudanngoforum.org/events/home"
 create_event_link: "http://apps.southsudanngoforum.org/events/create"
-
