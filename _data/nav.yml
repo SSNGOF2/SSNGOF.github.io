@@ -95,7 +95,8 @@ statutes_of_operations_link: "http://docs.southsudanngoforum.org/node/588"
 
 ingo_operation_presence_link: "http://southsudanngoforum.org/3w"
 nngo_operation_presence_link: "http://southsudanngoforum.org/3w-nngo"
-nngo_capacity_tool: "http://139.162.185.43/ngo-forum-captool/"
+# nngo_capacity_tool: "http://139.162.185.43/ngo-forum-captool/"
+nngo_capacity_tool: "http://nngocaptool.southsudanngoforum.org/"
 operational_presence_tool: "http://southsudanngoforum.org/3w"
 
 events_link: "http://apps.southsudanngoforum.org/events/home"
