@@ -23,6 +23,7 @@ var FAQs = {
         $.ajax({
             url: "{{ site.data.nav.document_repository_faqs_link }}",
             async: false, 
+            tyoe: 'get',
             dataType: 'json',
             success: function (json) {
                 _this.options.data = JSON.parse(JSON.stringify(json));
