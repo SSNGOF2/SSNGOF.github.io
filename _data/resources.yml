@@ -1,3 +1,7 @@
+- title: "Statutes of Operations"
+  description: "This the binding agreement that describes and govern the South Sudan Forum"
+  url: "http://docs.southsudanngoforum.org/sites/default/files/2019-02/NGO-Forum-South-Sudan-Statutes-of-Operation-January-2019-FINAL.pdf"
+
 - title: "Membership Registration"
   description: "Register with NGO Forum and join many other NGOs and other partners."
   url: "/membership/registration/"
@@ -10,6 +14,10 @@
   description: "NGO Forum repository of government circulars, coordination, legislations and regulatory guidance documents."
   url: "http://docs.southsudanngoforum.org"
 
+- title: "Communication Portal"
+  description: "This a message board for all NGO Forum members."
+  url: "http://comms.southsudanngoforum.org" 
+
 - title: "INGO Operational Presence 3W"
   description: "3W Data Visualization for International NGOs at County Level"
   url: "http://southsudanngoforum.org/3w"
@@ -19,7 +27,7 @@
   url: "http://southsudanngoforum.org/3w-nngo"
 
 - title: "National NGO Capicity Development Tool"
-  description: "This tool will help provide qualitative and quantitative information that will inform the NNGO capacity status debate."
+  description: "A tool that helps national organizations vet themselves and identify the areas of institutional development and support as well as develop a trajectory for organizational growth within South Sudan’s operating environment"
   url: "http://nngocaptool.southsudanngoforum.org/"
 
 - title: "Security Incidents"
@@ -46,26 +54,26 @@
   description: "This a message board where our partners submit tender advertisements."
   url: "http://comms.southsudanngoforum.org/c/tenders" 
 
-- title: "Update Your Organization 3Ws"
-  description: "The purpose of this form is to replace your organisations operational presence as it appears INGO &amp; NNGO Operational Presence 3W tools."
-  url: "https://goo.gl/forms/4oeO580OmvUHeJ2S2"
+# - title: "Update Your Organization 3Ws"
+#   description: "The purpose of this form is to replace your organisations operational presence as it appears INGO &amp; NNGO Operational Presence 3W tools."
+#   url: "https://goo.gl/forms/4oeO580OmvUHeJ2S2"
 
 # - title: "Emergency Relocation Forms"
 #   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 #   url: "https://docs.google.com/a/southsudanngoforum.org/forms/d/14dEkJF3oIA_LmlNq6FBVD5YpuRW8lwABQ1_0pfvUeF0/viewform?"
 
-- title: "Incidents of Sexual Violence against Staff"
-  description: "Report incidents of sexual Violence."
-  url: "https://docs.google.com/forms/d/e/1FAIpQLScfEwG-JXWsuFr5gqIpqAI5m3EirB1sQ7GX2Y52yM102tvNIg/viewform"
+# - title: "Incidents of Sexual Violence against Staff"
+#   description: "Report incidents of sexual Violence."
+#   url: "https://docs.google.com/forms/d/e/1FAIpQLScfEwG-JXWsuFr5gqIpqAI5m3EirB1sQ7GX2Y52yM102tvNIg/viewform"
 
-- title: "Operations Dashboard"
-  description: "Livemap of NGO Operations"
-  url: "http://southsudanngoforum.org/OperationsDashboard/"
+# - title: "Operations Dashboard"
+#   description: "Livemap of NGO Operations"
+#   url: "http://southsudanngoforum.org/OperationsDashboard/"
 
-- title: "INGO 3W:OP mobile app"
-  description: "A Mobile App showing the 3Ws Operational Presence"
-  url: "https://build.phonegap.com/apps/1614016/share/"
+# - title: "INGO 3W:OP mobile app"
+#   description: "A Mobile App showing the 3Ws Operational Presence"
+#   url: "https://build.phonegap.com/apps/1614016/share/"
 
-- title: "13 stories for World Humanitarian Day"
-  description: "Humanitarian stories from member NGOs on World Humanitarian Day"
-  url: "http://southsudanngoforum.org/WorldHumanitarianDay/"
+# - title: "13 stories for World Humanitarian Day"
+#   description: "Humanitarian stories from member NGOs on World Humanitarian Day"
+#   url: "http://southsudanngoforum.org/WorldHumanitarianDay/"
