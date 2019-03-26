@@ -5,11 +5,14 @@ slogan: Others have asked it too!
 permalink: /frequently-asked-questions/
 ---
 <div class="q-row">
-   <div class="content q-col-1-1 wow animated fadeIn" data-wow-delay="0.2s" data-wow-duration="0.5s">
-        <input type="text" name="name" class="full-width" id="search-faqs" required="" placeholder="Search ...">
-        <div id="demo-accordion" class="accordion">
-            <ul class="resp-tabs-list" id="resp-tabs-list"></ul>
-            <div class="resp-tabs-container" id="resp-tabs-container"></div>
+   <div id="faqs-page" class="content q-col-1-1 wow animated fadeIn" data-wow-delay="0.2s" data-wow-duration="0.5s">
+        <div class="row m-20px-b">
+            <div class="col-md-12">
+                <input type="search" name="name"  id="accordion_search_bar" class="full-width" id="search-faqs" required="" placeholder="Search ...">
+            </div>
+        </div>
+        <div class="row" id="faqs-accordion-wrapper">
+            <div class="col-md-12" id="faqs-accordion"></div>
         </div>
     </div>
 </div>
@@ -31,43 +34,60 @@ var FAQs = {
         });
     },
     showFAQs: function(search) {
-         // data = data || {}, 
-         this.ajax(), search = search || "", titles = [], faqs = [];
-
-        // for (prop in e) "" != e[prop] && (search += "[" + prop + ' ="' + e[prop] + '"]');
-
+        this.ajax(), faqs = [];
         $.each(this.options.data, function(k, v) 
         {
-            flag = JSON.search(v, "//*" + search)
-            if(Object.keys(flag).length > 0) 
-            {
-                titles.push("<li>"+ v.title +"</li>");
-                e = "<div><div id='faq-"+ v.nid +"'>";
-                    e += v.body;
-                    e += v.field_faq_category;
-                    e += v.field_attachment;
-                    e += v.field_image;
-                e += "</div></div>";
-                faqs.push( e );
-            }   
+            var e = `
+                <div class="panel panel-default" id="collapse`+ v.nid +`_container">
+                    <div class="panel-heading" role="tab" id="heading-`+ v.nid +`">
+                        <h4 class="panel-title">
+                            <a role="button" 
+                            data-toggle="collapse" 
+                            data-parent="#accordion" 
+                            href="#collapse`+ v.nid +`" 
+                            aria-expanded="true" 
+                            aria-controls="collapse`+ v.nid +`">
+                            <i class="fa fa-paw fa-fw" aria-hidden="true"></i> `+ v.title +`</a>
+                        </h4>
+                    </div>
+                    <div id="collapse`+ v.nid +`" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-`+ v.nid +`">
+                        <div class="panel-body">`+ v.body +'<strong>Category:</strong>'+ v.field_faq_category +' &nbsp;<strong>Attachment:</strong>'+ v.field_attachment +' &nbsp;<strong>Image:</strong>'+ v.field_image + `</div>
+                    </div>
+                </div>
+            `;
+            faqs.push( e );
         });
-        $("#resp-tabs-list").empty().html( titles.join("") );
-        $("#resp-tabs-container").empty().html( faqs.join("") );
+        $("#faqs-accordion").remove();
+        $("#faqs-accordion-wrapper").append('<div class="col-md-12" id="faqs-accordion">'+ faqs.join("") +'</div>');
     },
-    filters: function() {
-        _this = this
-        $("#search-faqs").on("keyup", function() {
-            term = $(this).val()
-            if(term.length > 4 )
-            {                
-                // _this.showFAQs({"title": term, "body": term });
-                _this.showFAQs(term);
-            }
-            return false;
-        });
+    initialize: function() {
+        // Collapse all but the first row on the page.
+        $('.collapse').not(':first').collapse(); 
+
+        // This section makes the search work.
+          var searchTerm, panelContainerId;
+          $('#accordion_search_bar').on('change keyup', function() {
+            searchTerm = $(this).val();
+            $('#accordion > .panel').each(function() {
+              panelContainerId = '#' + $(this).attr('id');
+
+              // Makes search to be case insesitive 
+              $.extend($.expr[':'], {
+                'contains': function(elem, i, match, array) {
+                  return (elem.textContent || elem.innerText || '').toLowerCase()
+                    .indexOf((match[3] || "").toLowerCase()) >= 0;
+                }
+              });
+              // END Makes search to be case insesitive
+
+              // Show and Hide Triggers
+              $(panelContainerId + ':not(:contains(' + searchTerm + '))').hide();
+              $(panelContainerId + ':contains(' + searchTerm + ')').show(); 
+            });
+          });
     },
     run: function() {
-        this.filters();
+        this.initialize();
         this.showFAQs();
     }
 }; 

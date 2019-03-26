@@ -32,6 +32,7 @@
     <script src="assets/js/jquery-1.11.1.min.js"></script>
     <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
     <Script src="assets/js/jquery-ui.min.js"></script>
+    <Script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/plugins/moment.js"></script>
     <script src="assets/js/plugins/defiant-js/defiant.min.js"></script>
     
@@ -57,6 +58,8 @@
         </nav>
     </div>
 </header>
+{% include social.html social=site.data.nav.social %}
+
 {% if page.url == "/" %}
    {% include frontpage-header.html %}
 {% endif %}

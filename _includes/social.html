@@ -1,0 +1,5 @@
+<div class="icon-bar">
+{% for social in include.social %}
+    <a href="#" class="{{social.url}}"><i class="fa fa-{{ social.text }}"></i></a>
+{% endfor %}
+</div>

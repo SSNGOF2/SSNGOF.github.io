@@ -40,6 +40,15 @@ main:
   - text: 'Contact Us'
     url: '/contact-us/'
 
+
+social:
+  - text: 'facebook'
+    url: 'https://www.facebook.com/SSNGOF/'
+  - text: 'twitter'
+    url: 'https://twitter.com/@ssngof'
+  - text: 'youtube'
+    url: '#'
+
 # forms & links
 # state_level_coordination_api: "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/0589704e28470f31498c599e48ca0d77/state-level-coordination/"
 state_level_coordination_api: "/api/state-level-coordination/"
