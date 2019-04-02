@@ -8,7 +8,7 @@ pages_dir: ./_pages
 # collections: null
 # 
 # Handling Reading
-safe:         true
+# safe:         true
 sitemap:      true
 
 include:      [".htaccess", "_pages"]
@@ -26,9 +26,9 @@ unpublished: false
 
 # Plugins
 whitelist: []
-plugins:      
-  - jekyll-paginate
+plugins:
   - jekyll-sitemap
+  - jekyll-paginate
 
 # Serving
 detach:  false
