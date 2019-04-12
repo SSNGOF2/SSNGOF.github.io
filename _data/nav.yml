@@ -24,13 +24,13 @@ main:
     url: '#'  
     subitems: 
       - text: 'Resilience Exchange Network'
-        url: 'http://docs.southsudanngoforum.org/page/resilience-exchange-network'
+        url: 'https://docs.southsudanngoforum.org/page/resilience-exchange-network'
       - text: 'Documents Portal'
-        url: 'http://docs.southsudanngoforum.org'
+        url: 'https://docs.southsudanngoforum.org'
       - text: 'INGOs 3W Presence'
-        url: 'http://southsudanngoforum.org/3w'
+        url: 'https://southsudanngoforum.org/3w'
       - text: 'NNGOs 3W Presence'
-        url: 'http://southsudanngoforum.org/3w-nngo'
+        url: 'https://southsudanngoforum.org/3w-nngo'
       - text: 'State Coordination'
         url: '/tools/state-coordination/'
       - text: 'NNGO Capacity Tool'
@@ -53,7 +53,7 @@ social:
 # state_level_coordination_api: "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/0589704e28470f31498c599e48ca0d77/state-level-coordination/"
 state_level_coordination_api: "/api/state-level-coordination/"
 # clusters_url: "http://apps.southsudanngoforum.org/data/cluster_meetings"
-clusters_url: "http://apps.southsudanngoforum.org/api/data/cluster-meetings"
+clusters_url: "https://apps.southsudanngoforum.org/api/data/cluster-meetings"
 
 nngo_expo_registration_form: "https://goo.gl/forms/9ANQeVWYQ10QvQdp2"
 
@@ -61,7 +61,7 @@ nngo_expo_registration_form: "https://goo.gl/forms/9ANQeVWYQ10QvQdp2"
 
 internship_initiative_link: "http://apps.southsudanngoforum.org/internship/programme/applications/2/module"
 
-internship_initiative_host_agency_link: "http://apps.southsudanngoforum.org/internship/host-agencies/applications/3/module"
+internship_initiative_host_agency_link: "https://apps.southsudanngoforum.org/internship/host-agencies/applications/3/module"
 
 membership_registration_page: "/membership/registration/"
 
@@ -74,7 +74,7 @@ membership_registration_page: "/membership/registration/"
 # membership_registration_form: "https://goo.gl/forms/uxJXT3zKP8G6fsTY2"
 
 # 2019
-membership_registration_form: "http://apps.southsudanngoforum.org/membership/home"
+membership_registration_form: "https://apps.southsudanngoforum.org/membership/home"
 
 # https://docs.google.com/forms/d/1rICS4K_w2WpXDss0B-gb74j_9kgDy4oODi13IKOq6wc/viewform?usp=send_form
 report_security_incident_form: "https://goo.gl/forms/hrJDBYIH4xpmv0Mp2"
@@ -90,25 +90,25 @@ job_adverts_link: "http://comms.southsudanngoforum.org/c/jobs"
 mailinglist_link: "http://comms.southsudanngoforum.org/"
 tenders_link: "http://comms.southsudanngoforum.org/c/tenders"
 
-document_repository_link: "http://docs.southsudanngoforum.org/"
-document_repository_faqs_link: "http://docs.southsudanngoforum.org/api/json/frequently-asked-questions"
+document_repository_link: "https://docs.southsudanngoforum.org/"
+document_repository_faqs_link: "https://docs.southsudanngoforum.org/api/json/frequently-asked-questions"
 
-knowledge_network_link: "http://docs.southsudanngoforum.org/sskn"
+knowledge_network_link: "https://docs.southsudanngoforum.org/sskn"
 capacity_development_link: "http://comms.southsudanngoforum.org/c/capacity-development"
 courses_and_trainings_link: "http://comms.southsudanngoforum.org/c/capacity-development"
 
 #documents
-security_documents_link: "http://docs.southsudanngoforum.org/index.php/security/security-guidance-documents"
-coordination_documents_link: "http://docs.southsudanngoforum.org/index.php/regulation/circulars"
-legislation_documents_link: "http://docs.southsudanngoforum.org/index.php/regulation/legislation"
+security_documents_link: "https://docs.southsudanngoforum.org/index.php/security/security-guidance-documents"
+coordination_documents_link: "https://docs.southsudanngoforum.org/index.php/regulation/circulars"
+legislation_documents_link: "https://docs.southsudanngoforum.org/index.php/regulation/legislation"
 
-statutes_of_operations_link: "http://docs.southsudanngoforum.org/node/588"
+statutes_of_operations_link: "https://docs.southsudanngoforum.org/node/588"
 
-ingo_operation_presence_link: "http://southsudanngoforum.org/3w"
-nngo_operation_presence_link: "http://southsudanngoforum.org/3w-nngo"
+ingo_operation_presence_link: "https://southsudanngoforum.org/3w"
+nngo_operation_presence_link: "https://southsudanngoforum.org/3w-nngo"
 # nngo_capacity_tool: "http://139.162.185.43/ngo-forum-captool/"
-nngo_capacity_tool: "http://nngocaptool.southsudanngoforum.org/"
-operational_presence_tool: "http://southsudanngoforum.org/3w"
+nngo_capacity_tool: "https://nngocaptool.southsudanngoforum.org/"
+operational_presence_tool: "https://southsudanngoforum.org/3w"
 
-events_link: "http://apps.southsudanngoforum.org/events/home"
-create_event_link: "http://apps.southsudanngoforum.org/events/create"
+events_link: "https://apps.southsudanngoforum.org/events/home"
+create_event_link: "https://apps.southsudanngoforum.org/events/create"
