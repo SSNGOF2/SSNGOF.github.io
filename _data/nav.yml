@@ -35,6 +35,8 @@ main:
         url: '/tools/state-coordination/'
       - text: 'NNGO Capacity Tool'
         url: '/nngo-capacity-tool/'
+      - text: 'Internship Initiative'
+        url: '/capacity-development/internship-initiative/'
   - text: 'FAQs'
     url: '/frequently-asked-questions/'
   - text: 'Contact Us'
