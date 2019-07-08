@@ -1835,6 +1835,14 @@ h2.resp-tab-active:before {
 	margin-top: 35px;
 	margin-bottom: 35px;
 }
+.widget-front {
+	margin-top: 10px;
+	padding: 5px 0px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 .widget {
 	margin-top: 30px;
 	padding: 25px 30px 30px 30px;
@@ -1843,7 +1851,7 @@ h2.resp-tab-active:before {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
-#sidebar .widget .widget-title {
+.widget .widget-title {
 	font-family: 'Roboto Condensed', 'Arial Narrow Bold', sans-serif;
 	font-size: 1.125em;
 	font-weight: 700;
@@ -1851,16 +1859,16 @@ h2.resp-tab-active:before {
 	text-transform: uppercase;
 	color: #054469;
 }
-#sidebar .widget .widget-title a {
+.widget .widget-title a {
 	color: #054469;
 }
-#sidebar .widget .widget-title span {
+.widget .widget-title span {
 	color: #3182bd;
 }
-#sidebar .widget .widget-title:first-child {
+.widget .widget-title:first-child {
 	margin-top: 0;
 }
-#sidebar .widget .widget-content ul {
+.widget .widget-content ul {
 	padding: 0;
 	list-style-type: none;
 }

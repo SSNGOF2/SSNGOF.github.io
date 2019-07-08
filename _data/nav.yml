@@ -96,8 +96,8 @@ document_repository_link: "https://docs.southsudanngoforum.org/"
 document_repository_faqs_link: "https://docs.southsudanngoforum.org/api/json/frequently-asked-questions"
 
 knowledge_network_link: "https://docs.southsudanngoforum.org/sskn"
-capacity_development_link: "http://comms.southsudanngoforum.org/c/capacity-development"
-courses_and_trainings_link: "http://comms.southsudanngoforum.org/c/capacity-development"
+capacity_development_link: "https://comms.southsudanngoforum.org/c/capacity-development"
+courses_and_trainings_link: "https://comms.southsudanngoforum.org/c/capacity-development"
 
 #documents
 security_documents_link: "https://docs.southsudanngoforum.org/index.php/security/security-guidance-documents"

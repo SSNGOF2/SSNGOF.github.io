@@ -1,3 +1,5 @@
+{% assign theme_base_url = if site.data.global.mode == 'development' ? site.data.global.dev_url : site.data.global.url %}
+
 {% assign navurl = page.url | remove: 'index.html' %}
 <ul>
 {% for link in include.nav %}
@@ -7,7 +9,7 @@
 		{% elsif link.subitems %}
 			{% assign pageurl = "#" %}
 		{% else %}
-			{% assign pageurl =  link.url | prepend:site.data.global.url %}
+			{% assign pageurl =  link.url | prepend:theme_base_url %}
 		{% endif %}
 		<a href="{{ pageurl }}">{{ link.text }}</a>
     	{% if include.children and link.subitems %}
