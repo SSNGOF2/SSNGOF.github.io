@@ -75,8 +75,7 @@ membership_registration_page: "/membership/registration/"
 # 2018
 # membership_registration_form: "https://goo.gl/forms/uxJXT3zKP8G6fsTY2"
 
-# 2019
-membership_registration_form: "https://apps.southsudanngoforum.org/membership/home"
+membership_registration_form: "https://services.southsudanngoforum.org/registrations/membership/certificate"
 
 # https://docs.google.com/forms/d/1rICS4K_w2WpXDss0B-gb74j_9kgDy4oODi13IKOq6wc/viewform?usp=send_form
 report_security_incident_form: "https://goo.gl/forms/hrJDBYIH4xpmv0Mp2"
