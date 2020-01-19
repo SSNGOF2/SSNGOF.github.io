@@ -8,9 +8,9 @@ main:
     subitems:
       - text: 'Membership Criteria'
         url: '/membership/'
-      - text: 'INGOS'
+      - text: 'Membership - INGOS'
         url: '/membership/international/'
-      - text: 'NNGOS'
+      - text: 'Membership - NNGOS'
         url: '/membership/national/'
   - text: 'What We Do'
     url: '/what-we-do/'
