@@ -1,0 +1,44 @@
+---
+layout: default
+title: Resources
+slogan: NGO Forum Tools
+permalink: /membership/international/
+---
+<div class="q-row">
+    <div class="content q-col-1-1 wow animated fadeIn" data-wow-delay="0.2s" data-wow-duration="0.5s">
+        <p class="big-text"><em>Membership INGOS - 2019</em></p>
+
+        <div class="roadmap-archive">
+            <div id="roadmap-items-list" class="roadmap-items q-clear">
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+$(function()
+{
+    _date = moment().format("MMMM  YYYY");
+    $("#cluster-month-date").empty().html(" - "+ _date );
+
+    $.getJSON("{{ site.data.nav.ingo_profiles_link }}", function(res) 
+    {
+        profiles = [];
+        $.each(res, function(k, v) 
+        {
+            e ='<div class="roadmap-item"><time>'+ (k + 1) +'</time>';
+                e +='<div class="item-body">';
+                    e +='<div class="q-row">';
+                        e +='<div class="q-col-1-1">';
+                            e +='<h3 class="item-title"><a href="'+ v.website +'">'+ v.name +'</a></h3>';
+                            e +='<p>'+ v.brief +'</p>';                 
+                            e +='<p><a href="{'+ v.website +'" class="button button-outline">View website<i class="fa fa-caret-right icon-on-right"></i></a></p>';                 
+                        e +="</div>";
+                    e +="</div>";
+                e +="</div>";
+            e +="</div>";
+            profiles.push( e );
+        });
+        $("#roadmap-items-list").empty().html( profiles.join("") );
+    });
+}); 
+</script>
