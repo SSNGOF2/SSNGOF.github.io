@@ -25,14 +25,14 @@ $(function()
         profiles = [];
         $.each(res, function(k, v) 
         {
+            let web_url = v.website;
+            let link = !web_url || web_url =='' ? '#' : (web_url.includes('http://') ||  web_url.includes('https://') ? web_url : 'http://'+web_url);
             e ='<div class="roadmap-item"><time>'+ (k + 1) +'</time>';
                 e +='<div class="item-body">';
                     e +='<div class="q-row">';
                         e +='<div class="q-col-1-1">';
                             e +='<h3 class="item-title"><a href="'+ link +'">'+ v.name +'</a></h3>';
                             e +='<p>'+ v.brief +'</p>';                 
-                            let web_url = v.website;
-                            let link = web_url.includes('http://') ||  web_url.includes('https://') ? web_url : 'http://'+web_url;
                             if( web_url && web_url !== '') {    
                                 e +='<p><a href="'+link +'" target="_blank" class="button button-outline">View website<i class="fa fa-caret-right icon-on-right"></i></a></p>';                 
                             }             
