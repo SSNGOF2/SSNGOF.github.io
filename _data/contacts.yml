@@ -1,24 +1,39 @@
 staff:
   - title: "Director"
-    name: "Pius Ojara"
     email: "coordinator@southsudanngoforum.org"
 
-  - title: "Security Focal Point"
-    name: "Andres Alejandro"
-    email: "security@southsudanngoforum.org"
-  
-  - title: "Communications Advisor"
-    name: "Liatile Putsoa"
-    email: "comms@southsudanngoforum.org "
-
   - title: "Humanitarian Advisor"
-    name: "Robert Jones"
     email: "access@southsudanngoforum.org"
 
+  - title: "Security Focal Point"
+    email: "security@southsudanngoforum.org"
+
+  - title: "Deputy Security Focal Point"
+    email: "dep-security@southsudanngoforum.org"
+
+  - title: "Security Information Analyst"
+    email: "sec-analyst@southsudanngoforum.org"
+  
+  - title: "Communications Advisor"
+    email: "comms@southsudanngoforum.org "
+
   - title: "Information Manager"
-    name: "Kenneth Muturi"
     email: "infomgr@southsudanngoforum.org"
 
-  - title: "NNGO Information Officer"
-    name: "Paul Doctor"
+  - title: "NNGO Focal Point"
+    email: "nngo-fp@southsudanngoforum.org"
+
+  - title: "Programme Manager"
+    email: "programme@southsudanngoforum.org"
+    
+  - title: "NNGO Information Manger"
     email: "nngo-info@southsudanngoforum.org"
+
+  - title: "NNGO States Coordinator"
+    email: "nngo-states@southsudanngoforum"
+
+  - title: "Finance"
+    email: "finance@southsudanngoforum.org"
+
+  - title: "Admin & Logistics"
+    email: "logistics@southsudanngoforum.org"
