@@ -71,9 +71,9 @@ nngo_profiles_link: "https://services.southsudanngoforum.org/api/services/profil
 
 # internship_initiative_link: "https://goo.gl/forms/tT6gM6yRTF5MNcY22"
 
-internship_initiative_link: "https://services.southsudanngoforum.org/internships"
+internship_initiative_link: "https://services.southsudanngoforum.org/internships/requirements/application"
 
-internship_initiative_host_agency_link: "https://services.southsudanngoforum.org/internships"
+internship_initiative_host_agency_link: "https://services.southsudanngoforum.org/internships/requirements/hostagency"
 
 membership_registration_page: "/membership/registration/"
 
