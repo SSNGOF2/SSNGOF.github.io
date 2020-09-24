@@ -1,6 +1,6 @@
 staff:
   - title: "Director"
-    email: "coordinator@southsudanngoforum.org"
+    email: "director@southsudanngoforum.org"
 
   - title: "Humanitarian Advisor"
     email: "access@southsudanngoforum.org"
@@ -11,13 +11,13 @@ staff:
   - title: "Deputy Security Focal Point"
     email: "dep-security@southsudanngoforum.org"
 
-  - title: "Security Information Analyst"
-    email: "sec-analyst@southsudanngoforum.org"
+  - title: "Security Information Advisor"
+    email: "sec-advisor@southsudanngoforum.org"
   
   - title: "Communications Advisor"
     email: "comms@southsudanngoforum.org "
 
-  - title: "Information Manager"
+  - title: "Information Advisor"
     email: "infomgr@southsudanngoforum.org"
 
   - title: "NNGO Focal Point"
