@@ -1,0 +1,43 @@
+---
+layout: default
+title: Events
+slogan: NGO Forum Events
+permalink: /events/
+---
+
+{% assign sortedCurrentEvents = site.data.events | sort: 'event_date' | where:'isCurrent', 'true' %}
+
+
+<div class="q-row">
+    <div class="content q-col-1-1 wow animated fadeIn" data-wow-delay="0.2s" data-wow-duration="0.5s">
+        <p class="big-text"><em>Upcoming Events.</em></p>
+
+        <div class="roadmap-archive">
+            <div class="roadmap-items q-clear">
+            {% assign i = 0 %}
+            {% for event in sortedCurrentEvents %}
+                {%  assign i = i | plus: 1 %}
+                <div class="roadmap-item">
+                    <time>{{ i }}</time>
+                    <div class="item-body">
+                        <div class="q-row">
+                            <div class="q-col-1-1">
+                                <h3 class="item-title"><a href="{{ event.event_page }}">{{ event.event_title }}</a></h3>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><i class="fa fa-calendar-o" aria-hidden="true"></i> {{ event.event_date }}</li>
+                                    <li class="list-inline-item"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ event.event_time }}</li>
+                                    <li class="list-inline-item"><i class="fa fa-location-arrow" aria-hidden="true"></i> {{ event.event_location }}</li>
+                                </ul>
+                                <hr>
+                                <p><strong>THEME:</strong> {{ event.event_theme }}</p>
+                                <p><strong>ABOUT:</strong> {{ event.event_description }}</p>
+                                <p><a href="{{ event.event_page }}" class="button button-outline">View Event <i class="fa fa-caret-right icon-on-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
