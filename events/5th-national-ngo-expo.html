@@ -1,0 +1,136 @@
+---
+layout: default
+title: 5TH NATIONAL NGO EXPO
+slogan: National NGOs for Resilience, Stability and Innovative Development
+permalink: /events/5th-national-ngo-expo/
+categories:
+    - Events
+---
+<!-- Start: Hero -->
+<div id="hero">
+	<div class="q-container flex-container">
+		<div data-ride="carousel" class="carousel slide margin-bottom-20 event-carousel flex-child">
+		    <div class="carousel-inner">
+			    <div class="embed-responsive embed-responsive-16by9">
+                	<iframe class="embed-responsive-item" src="//www.youtube.com/embed/16TP-3-Pmxg" allowfullscreen></iframe>
+            	</div>
+
+			</div>
+		    <a class="left carousel-control" href="#header-full-width" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span>
+		    </a>
+		    <a class="right carousel-control" href="#header-full-width" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		</div>
+		<div class="event-carousel-info flex-child hidden-sm hidden-xs">
+            <h2 class="section-headline"></h2>
+            	<div class="carousel-date">
+            		<div class="carousel-day">
+	            		<p class="c-month">October</p>
+	            		<p class="c-day">29</p>
+	            		<p class="c-day-name">Thursday</p>
+	            		<p class="c-year">2020</p>
+            		</div>
+            	</div>
+            		
+        </div>
+
+	</div>
+	<div class="q-container">
+    	<ul class="list-inline">
+	        <li class="list-inline-item event-date hidden-md hidden-lg"><i class="fa fa-calendar-o" aria-hidden="true"></i> Thursday, 29 October 2020</li>
+	        <li class="list-inline-item event-countdown">
+	        	<strong>Starts in: </strong>  
+	        	<span id="countdown-day"></span> days, 
+	        	<span id="countdown-hour"></span> hours, 
+	        	<span id="countdown-minute"></span> minutes, 
+	        	<span id="countdown-second"></span> seconds, 
+	        	<span id="countdown-end" class="label label-danger"></span> 
+	        </li>
+	    </ul>
+    </div>
+	
+</div>
+<!-- End: Hero -->
+
+<div class="q-row">
+	<div class="content q-col-1-1 wow animated fadeIn" data-wow-delay="0.2s" data-wow-duration="0.5s">
+
+		<p class="big-text">The NGO Forum is proud to announce the fifth 5<sup>th</sup> National NGO Expo that will take place on the 29<sup>th</sup> to 31<sup>st</sup> October 2020 in Juba. The 2020 Expo has the theme: <strong>National NGOs for Resilience, Stability and Innovative Development</strong>.</p>
+
+		<h2>NNGO Expo Mission</h2>
+		<p class="big-text">The NNGO Expo is a platform for National NGOs to showcase their activities and diversity to the nation, Government, international actors and business community. All are welcome to attend!</p>
+
+		<h2>COVID-19</h2>
+		<p class="big-text"> The 2020 NNGO Expo will be organised in compliance with recommended COVID-19 preventive measures – social distancing, compulsory hand washing and wearing of face masks.</p>
+
+		<h2>More Info</h2>
+
+		<p class="big-text"> The NGO Forum will communicate further details about the NNGO Expo in the course of the coming weeks. Follow us to get more information about the Expo as we move closer to the big event!</p>
+
+		<p class="big-text"> In the meantime, watch the video above from last year’s Expo and get inspired</p>
+	</div>
+</div>
+
+<style type="text/css">
+.flex-container {
+    display: flex;
+}
+.flex-child:first-child {
+    border: 2px solid #6c4d80;
+}
+.flex-child {
+    background-color: #6c4d80;
+}
+.event-carousel{
+	flex: 5;
+}
+.event-carousel-info {
+	flex: 1;
+}
+.carousel-date {
+	position: relative;
+    text-align: center;
+    background: #eee;
+    box-shadow: 0 10px 0 0px #a5a4a4;
+}
+.carousel-day {
+	position: relative;
+    padding: 20px 30px 15px;
+    background: #eee;
+    color: #444 !important;
+    webkit-box-shadow: inset -30px -30px 100px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset -30px -30px 100px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: inset -30px -30px 100px 0px rgba(0, 0, 0, 0.3);
+}
+.c-month, .c-day-name {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.c-day {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0 0 15px;
+}
+.event-countdown, .event-date {
+	color: #444 !important;
+}
+</style>
+
+<script type="text/javascript">
+	var deadline = new Date("Thursday, 29 October 2020").getTime();             
+	var x = setInterval(function() {
+   	var currentTime = new Date().getTime();                
+   	var t = deadline - currentTime; 
+   	var days = Math.floor(t / (1000 * 60 * 60 * 24)); 
+   	var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
+   	var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
+   	var seconds = Math.floor((t % (1000 * 60)) / 1000); 
+   	document.getElementById("countdown-day").innerHTML =days ; 
+   	document.getElementById("countdown-hour").innerHTML =hours; 
+   	document.getElementById("countdown-minute").innerHTML = minutes; 
+   	document.getElementById("countdown-second").innerHTML =seconds; 
+   if (t < 0) {
+      clearInterval(x); 
+      document.getElementById("countdown-end").innerHTML = "TIME UP"; 
+   } 
+}, 1000); 
+</script>

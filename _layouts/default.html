@@ -64,6 +64,10 @@
    {% include frontpage-header.html %}
 {% endif %}
 
+{% if page.url == "/events/expo/" %}
+   {% include expo-header.html %}
+{% endif %}
+
 {% if page.url == "/" %}
     {% include frontpage-content.html %}
 {% else %}

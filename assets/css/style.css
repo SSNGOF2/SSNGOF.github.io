@@ -556,7 +556,7 @@ p {
 	min-height: 400px;
 }
 .page-header {
-	padding: 35px 0 15px 0;
+	/*padding: 35px 0 15px 0;*/
 	background-color: #f8f8f8;
 	margin: 0;
 /*	background-image: url(../img/header-flag.png);
@@ -2130,7 +2130,7 @@ h2.resp-tab-active:before {
 		display: none;
 	}
 	#hero .q-container {
-		padding-top: 50% ;
+		/*padding-top: 50% ;*/
 		background-position: top 10% center;
 		background-size: 50%;
 	}
