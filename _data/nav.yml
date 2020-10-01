@@ -27,6 +27,8 @@ main:
         url: '/what-we-do/ngo-networking/'
   - text: 'Resources'
     url: '/resources/'
+  - text: 'Events'
+    url: '/events/'
   - text: 'Tools'
     url: '#'  
     subitems: 
