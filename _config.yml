@@ -51,8 +51,3 @@ permalink: pretty
 
 # Credits content
 credits: 'test'
-
-#headers
-webrick:
-  headers:
-    Access-Control-Allow-Origin: "*"
