@@ -68,8 +68,8 @@ clusters_url: "https://apps.southsudanngoforum.org/api/data/cluster-meetings"
 
 nngo_expo_registration_form: "https://goo.gl/forms/9ANQeVWYQ10QvQdp2"
 
-ingo_profiles_link: "https://services.southsudanngoforum.org/api/services/profiles/ingo/2019"
-nngo_profiles_link: "https://services.southsudanngoforum.org/api/services/profiles/nngo/2019"
+ingo_profiles_link: "https://services.southsudanngoforum.org/api/services/profiles/ingo/2021"
+nngo_profiles_link: "https://services.southsudanngoforum.org/api/services/profiles/nngo/2021"
 
 # internship_initiative_link: "https://goo.gl/forms/tT6gM6yRTF5MNcY22"
 
@@ -105,6 +105,7 @@ tenders_link: "http://comms.southsudanngoforum.org/c/tenders"
 
 document_repository_link: "https://docs.southsudanngoforum.org/"
 document_repository_faqs_link: "https://docs.southsudanngoforum.org/api/json/frequently-asked-questions"
+# document_repository_faqs_link: "http://localhost/SSNGOF/ngo-forum-docs/web/api/json/frequently-asked-questions"
 
 knowledge_network_link: "https://docs.southsudanngoforum.org/sskn"
 capacity_development_link: "https://comms.southsudanngoforum.org/c/capacity-development"
