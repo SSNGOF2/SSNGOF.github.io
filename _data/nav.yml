@@ -31,7 +31,9 @@ main:
     url: '/events/'
   - text: 'Tools'
     url: '#'  
-    subitems: 
+    subitems:
+      - text: 'PSEA Toolkit'
+        url: '/tools/psea-toolkit/' 
       - text: 'Resilience Exchange Network'
         url: 'https://docs.southsudanngoforum.org/page/resilience-exchange-network'
       - text: 'Documents Portal'
