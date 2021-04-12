@@ -22,9 +22,8 @@ $(function()
 
     $.getJSON("{{ site.data.nav.nngo_profiles_link }}", function(res) 
     {
-       result = JSON.parse(JSON.stringify(res));
         profiles = [];
-        $.each(result, function(k, v) 
+        $.each(res, function(k, v) 
         {
             let web_url = v.website;
             let link = !web_url || web_url =='' ? '#' : (web_url.includes('http://') ||  web_url.includes('https://') ? web_url : 'http://'+web_url);
