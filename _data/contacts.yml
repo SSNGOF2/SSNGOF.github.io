@@ -5,35 +5,41 @@ staff:
   - title: "Humanitarian Advisor"
     email: "access@southsudanngoforum.org"
 
-  - title: "Security Focal Point"
-    email: "security@southsudanngoforum.org"
+  - title: "Communications Officer"
+    email: "comms-officer@southsudanngoforum.org"
 
-  - title: "Deputy Security Focal Point"
-    email: "dep-security@southsudanngoforum.org"
+  - title: "ICT Officer"
+    email: "ict-officer@southsudanngoforum.org"
+    
+  #- title: "Security Focal Point"
+   # email: "security@southsudanngoforum.org"
 
-  - title: "Security Information Advisor"
-    email: "sec-advisor@southsudanngoforum.org"
+  #- title: "Deputy Security Focal Point"
+   # email: "dep-security@southsudanngoforum.org"
+
+  #- title: "Security Information Advisor"
+    # email: "sec-advisor@southsudanngoforum.org"
   
-  - title: "Communications Advisor"
-    email: "comms@southsudanngoforum.org "
+  #- title: "Communications Advisor"
+ #   email: "comms@southsudanngoforum.org "
 
   - title: "Information Advisor"
     email: "infomgr@southsudanngoforum.org"
 
-  - title: "NNGO Focal Point"
-    email: "nngo-fp@southsudanngoforum.org"
+ # - title: "NNGO Focal Point"
+   # email: "nngo-fp@southsudanngoforum.org"
 
-  - title: "Programme Manager"
-    email: "programme@southsudanngoforum.org"
+  #- title: "Programme Manager"
+   # email: "programme@southsudanngoforum.org"
     
-  - title: "NNGO Information Manger"
-    email: "nngo-info@southsudanngoforum.org"
+ # - title: "NNGO Information Manger"
+   # email: "nngo-info@southsudanngoforum.org"
 
-  - title: "NNGO States Coordinator"
-    email: "nngo-states@southsudanngoforum"
+   #- title: "NNGO States Coordinator"
+     # email: "nngo-states@southsudanngoforum"
 
-  - title: "Finance"
-    email: "finance@southsudanngoforum.org"
+ # - title: "Finance"
+#    email: "finance@southsudanngoforum.org"
 
-  - title: "Admin & Logistics"
-    email: "logistics@southsudanngoforum.org"
+ # - title: "Admin & Logistics"
+  #  email: "logistics@southsudanngoforum.org"
